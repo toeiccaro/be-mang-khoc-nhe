@@ -1,0 +1,187 @@
+.timer-container {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 15px;
+  padding: 15px 20px;
+  color: white;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ease;
+  min-width: 250px;
+  max-width: 280px;
+}
+
+/* Timer component styles */
+
+.timer-container.warning {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  animation: pulse-warning 2s infinite;
+}
+
+.timer-container.critical {
+  background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
+  animation: pulse-critical 1s infinite;
+}
+
+@keyframes pulse-warning {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.02); }
+}
+
+@keyframes pulse-critical {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+
+.timer-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.timer-header h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.timer-status {
+  font-size: 0.9rem;
+}
+
+.status-running {
+  background: rgba(76, 175, 80, 0.8);
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.status-finished {
+  background: rgba(244, 67, 54, 0.8);
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.status-paused {
+  background: rgba(255, 152, 0, 0.8);
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.timer-display {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.timer-text {
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: 'Courier New', monospace;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  margin-bottom: 15px;
+  transition: color 0.3s ease;
+}
+
+.timer-progress-container {
+  width: 100%;
+  height: 8px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+}
+
+.timer-progress-bar {
+  height: 100%;
+  border-radius: 4px;
+  transition: width 0.3s ease, background-color 0.3s ease;
+  position: relative;
+}
+
+.timer-progress-bar::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+  animation: shimmer 2s infinite;
+}
+
+@keyframes shimmer {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+.timer-info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.time-info {
+  text-align: center;
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+.time-warning {
+  text-align: center;
+  font-weight: 600;
+  animation: blink 1s infinite;
+}
+
+.critical-warning {
+  color: #ffeb3b;
+  font-size: 0.95rem;
+}
+
+.normal-warning {
+  color: #ffc107;
+  font-size: 0.9rem;
+}
+
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0.7; }
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .timer-container {
+    min-width: 250px;
+    padding: 15px;
+  }
+  
+  .timer-text {
+    font-size: 2.5rem;
+  }
+  
+  .timer-header h3 {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .timer-container {
+    min-width: 220px;
+    padding: 12px;
+  }
+  
+  .timer-text {
+    font-size: 2rem;
+  }
+  
+  .timer-header {
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+  }
+}

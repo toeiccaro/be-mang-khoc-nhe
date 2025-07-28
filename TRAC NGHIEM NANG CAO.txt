@@ -1,0 +1,1230 @@
+1.	MS Winword 2013: để soạn thảo nhanh một cụm từ lặp lại nhiều lần trong văn bản, ta thiết lập từ gõ tắt bằng cách vào File\Optoin\ Proofing\AutoOptoins..., ta chọn tiếp công cụ nào sau đây?
+A.	AutoFormat
+B.	Math Autocorrect
+C.	Autocorrect
+D.	AutoFormat As You Type Answer: C
+
+2.	MS Winword 2013: khi dùng công cụ Autocorrect, ta nhập từ gõ tắt rồi nhập cụm từ được thay thế bằng từ gõ tắt vào các mục tương ứng nào sau đây?
+A.	Replace - Replace With
+B.	Find What - Replace With
+C.	Find What - Replace
+D.	Replace -With Answer: D
+
+3.	MS Winword 2013: khi cần thay thế một nội dung cũ trong văn bản thành một nội dung mới, ta nhập nội dung cũ rồi nhập nội dung mới thay thế cho nội dung cũ vào các mục tương ứng nào sau đây?
+A.	Replace - Replace With
+B.	Find What - Replace With
+C.	Find What - Replace
+D.	Replace -With Answer: B
+
+4.	MS Winword 2013: Làm cách nào để thêm một trích dẫn vào văn bản bằng "References" trong Microsoft Word?
+A.	Chọn vị trí trong văn bản mà bạn muốn thêm trích dẫn.
+B.	Trong tab "References," chọn "Insert Citation."
+C.	Chọn kiểu trích dẫn phù hợp (ví dụ: APA, MLA) hoặc tạo kiểu trích dẫn tùy chỉnh.
+D.	Nhập thông tin của nguồn tham khảo (tác giả, tiêu đề, năm xuất bản, vv.) trong hộp thoại trích dẫn.
+Answer: B
+
+7.	MS Winword 2013: khi thực hiện ngắt trang để sang trang mới, phương án nào sau đây là đúng?
+A.	Dùng phím Enter
+B.	Dùng tổ hợp phím Alt + Enter
+C.	Dùng tổ hợp phím Ctrl + Enter
+D.	Dùng tổ hợp phím Shift + Enter Answer: C
+ 
+8.	MS Winword 2013: khi thực hiện ngắt trang để sang trang mới, phương án nào sau đây là đúng?
+A.	Dùng phím Enter
+B.	Dùng tổ hợp phím Alt + Enter
+C.	Dùng lệnh Insert\Page Break
+D.	Dùng lệnh Page Layout\Break\Next Page Answer: C
+
+9.	MS Winword 2013: công cụ format painter có chức năng gì?
+A.	Sao chép một định dạng đã có trong văn bản
+B.	Tạo một định dạng mới cho văn bản
+C.	Là công cụ định dạng cho các hình vẽ
+D.	Là công cụ vẽ hình Answer: A
+
+10.	MS Winword 2013: khi thực hiện ngắt đoạn để sang đoạn mới, phương án nào sau đây là đúng?
+A.	Dùng lệnh Insert\Page Break
+B.	Dùng lệnh Page Layout\Break\Next Page
+C.	Dùng tổ hợp phím Ctrl + Enter
+D.	Dùng tổ hợp phím Shift + Enter Answer: B
+
+11.	MS Winword 2013: văn bản có nhiều chương, muốn đánh số trang bắt đầu từ 1 cho từng chương, ta phải thực hiện thao tác nào sau đây?
+A.	Ngắt đoạn ở cuối mỗi chương
+B.	Dùng phím Enter để sang trang mới ở cuối mỗi chương
+C.	Ngắt trang ở cuối mỗi chương
+D.	Dùng tổ hợp phím Shift + Enter Answer: A
+
+12.	MS Winword 2013: để chia cột cho văn bản ta phải chọn đoạn văn bản cần chia cột rồi thực hiện cụm thao tác nào sau đây?
+A.	Insert\ Columns\ More Columns
+B.	Layout\ Columns\ More Columns
+C.	Insert\ Columns
+D.	Page Layout\ Columns\ More Columns Answer: D
+
+13.	MS Winword 2013: để tạo Bảng cho việc tổ chức dữ liệu dạng danh sách ta thực hiện cụm thao tác nào sau đây?
+A.	Page Layout\Insert Table
+B.	References\Table of Contents
+C.	References\Insert Table
+ 
+D.	Insert\Table\Insert Table Answer: D
+
+14.	MS Winword 2013: khi sử dụng Bảng muốn lặp lại dòng đầu tiên của bảng trên nhiều trang, ta chọn dòng đầu tiên của Bảng và thực hiện cụm thao tác nào sau đây?
+A.	Insert\Header
+B.	Design\Header Row
+C.	Layout\Repeat Header Rows
+D.	Design\First Row Answer: C
+
+15.	MS Winword 2013: khi muốn trộn các ô liên tiếp trong Bảng lại thành 1 ô, ta chọn các ô cần trộn và thực hiện cụm thao tác nào sau đây?
+A.	Layout\Merge cells
+B.	Insert\Merge cells
+C.	Home\Font\Merge cells
+D.	Maillings\Start Mail Merge Answer: A
+
+16.	MS Winword 2013: khi muốn trộn các ô liên tiếp trong Bảng lại thành 1 ô, ta chọn các ô cần trộn và thực hiện cụm thao tác nào sau đây?
+A.	Right Click\Merge cells
+B.	Insert\Merge cells
+C.	Home\Font\Merge cells
+D.	Maillings\Start Mail Merge Answer: A
+
+17.	MS Winword 2013: khi muốn chia 1 ô đã được trộn từ nhiều ô khác trong Bảng thành nhiều ô, ta chọn ô cần chia và thực hiện cụm thao tác nào sau đây?
+A.	Right Click\Insert\Insert cells
+B.	Insert\Cells
+C.	Page Layout\Line Numbers
+D.	Right Click\Split cells Answer: D
+
+18.	MS Winword 2013: khi muốn chia 1 ô đã được trộn từ nhiều ô khác trong Bảng thành nhiều ô, ta chọn ô cần chia và thực hiện cụm thao tác nào sau đây?
+A.	Right Click\Insert\Insert cells
+B.	Layout\Split cells
+C.	Page Layout\Line Numbers
+D.	Insert\Cells Answer: B
+ 
+19.	MS Winword 2013: để định dạng hướng của văn bản trong một ô của Bảng ta chọn ô cần định dạng và thực hiện cụm thao tác nào sau đây?
+A.	Right Click\Cells Alignment
+B.	Right Click\Text Directoin
+C.	Home\Font\ UnderLine Style
+D.	View\Gridlines Answer: B
+
+20.	MS Winword 2013: để định dạng hướng của văn bản trong một ô của Bảng ta chọn ô cần định dạng và thực hiện cụm thao tác nào sau đây?
+A.	Layout\Cells Alignment
+B.	Home\Font\ UnderLine Style
+C.	Layout\Text Directoin
+D.	View\Gridlines Answer: C
+
+21.	MS Winword 2013: để tạo tiêu đề chung ở chân trang cho các trang văn bản ta thực hiện cụm thao tác nào sau đây?
+A.	Insert\Footer
+B.	References\Insert Footnote
+C.	References\Insert Endnote
+D.	Insert\Endnote Answer: A
+
+22.	MS Winword 2013: để tạo chú thích ở cuối trang cho một nội dung nào đó trong trang văn bản, ta thực hiện cụm thao tác nào sau đây?
+A.	Insert\Footer
+B.	References\Insert Footnote
+C.	References\Insert Endnote
+D.	Insert\Footnote Answer: B
+
+23.	MS Winword 2013: để tạo chú thích cho một nội dung nào đó trong văn bản và phần chú thích đó được hiển thị ở cuối văn bản, ta thực hiện cụm thao tác nào sau đây?
+A.	Insert\Footer
+B.	References\Insert Footnote
+C.	References\Insert Endnote
+D.	Insert\Footnote Answer: C
+
+26.	MS Winword 2013: khi thực hiện thao tác Insert\Picture là để chèn vào văn bản:
+A.	Một hình ảnh đã được người dùng lưu trên ổ đĩa
+B.	Một hình ảnh lưu trong thư viện hình ảnh của Word
+C.	Một mẫu chữ nghệ thuật
+ 
+D.	Một biểu đồ (đồ thị) Answer: A
+
+27.	MS Winword 2013: khi thực hiện thao tác Insert\Chart là để chèn vào văn bản:
+A.	Một hình ảnh đã được người dùng lưu trên ổ đĩa
+B.	Một hình ảnh lưu trong thư viện hình ảnh của Word
+C.	Một mẫu chữ nghệ thuật
+D.	Một biểu đồ (đồ thị) Answer: D
+
+28.	MS Winword 2013: khi thực hiện thao tác Insert\Clip Art là để chèn vào văn bản:
+A.	Một hình ảnh đã được người dùng lưu trên ổ đĩa
+B.	Một hình ảnh lưu trong thư viện hình ảnh của Word
+C.	Một mẫu chữ nghệ thuật
+D.	Một biểu đồ (đồ thị) Answer: B
+
+29.	MS Winword 2013: khi thực hiện thao tác Insert\WordArt là để chèn vào văn bản:
+A.	Một hình ảnh đã được người dùng lưu trên ổ đĩa
+B.	Một hình ảnh lưu trong thư viện hình ảnh của Word
+C.	Một mẫu chữ nghệ thuật
+D.	Một biểu đồ (đồ thị) Answer: C
+
+30.	MS Winword 2013: để tạo mục lục tự động cho văn bản, sau khi thiết lập Level cho các nội dung tạo mục lục, ta đặt con trỏ tại vị trí tạo mục lục và thực hiện cụm thao tác nào sau đây?
+A.	References\Table of Contents\Insert Table of Contents
+B.	Insert\Table
+C.	References\Insert Table of Figure
+D.	References\Insert Index Answer: A
+
+31.	MS Winword 2013: khi thực hiện trộn thư ta thực hiện thao tác Mailling\Select Recipients\Use Existing List..., hệ thống sẽ yêu cầu ta làm gì tiếp theo?
+A.	Chỉ đường dẫn đến File dữ liệu nguồn cung cấp cho việc trộn thư.
+B.	Tạo mới một danh sách dữ liệu cung cấp cho việc trộn thư
+C.	Chỉ định trường dữ liệu chèn vào tài liệu gốc
+D.	Xem kết quả trộn thư Answer: A
+
+32.	MS Winword 2013: khi thực hiện trộn thư ta thực hiện thao tác Mailling\Select Recipients\Type New List..., hệ thống sẽ yêu cầu ta làm gì tiếp theo?
+A.	Chỉ đường dẫn đến File dữ liệu nguồn cung cấp cho việc trộn thư.
+ 
+B.	Tạo mới một danh sách dữ liệu cung cấp cho việc trộn thư
+C.	Chỉ định trường dữ liệu chèn vào tài liệu gốc
+D.	Xem kết quả trộn thư Answer: B
+
+33.	MS Winword 2013: khi thực hiện trộn thư ta thực hiện thao tác Mailling\Insert Merge Field, hệ thống sẽ yêu cầu ta làm gì tiếp theo?
+A.	Chỉ đường dẫn đến File dữ liệu nguồn cung cấp cho việc trộn thư.
+B.	Tạo mới một danh sách dữ liệu cung cấp cho việc trộn thư
+C.	Chỉ định trường dữ liệu chèn vào tài liệu gốc
+D.	Xem kết quả trộn thư Answer: C
+
+37.	MS Winword 2013: khi văn bản được gắn mật khẩu, để làm việc trên văn bản này, người dùng phải nhập mật khẩu khi nào?
+A.	Khi thực hiện chỉnh sửa thông tin trên văn bản
+B.	Khi Lưu văn bản với nội dung được chỉnh sửa
+C.	Khi lưu văn bản với một tên mới
+D.	Khi mở văn bản Answer: D
+
+40.	MS Winword 2013: tại cửa sổ Page Setup ta chọn Port Trait với chủ đích gì?
+A.	Chỉ định in trang dọc
+B.	Chọn khổ giấy A4
+C.	Chỉ định in trang ngang
+D.	Chọn khổ giấy A5 Answer: A
+
+41.	MS Winword 2013: tại cửa sổ Page Setup ta chọn LandScape với chủ đích gì?
+A.	Chỉ định in trang dọc
+B.	Chọn khổ giấy A4
+C.	Chỉ định in trang ngang
+D.	Chọn khổ giấy A5 Answer: C
+
+50.	MS Winword 2013: khi muốn in trang 5, con trỏ soạn thảo đang ở trang 5 trong văn bản có 20 trang, ta thao tác File\Print, tiếp theo ta chỉ định trang in theo cách nào sau đây?
+A.	Print Current Page
+B.	Tại mục Pages gõ vào 1-5
+C.	Tại mục Pages gõ vào 1
+D.	Tại mục Pages gõ vào 1-1,5 Answer: A
+ 
+51.	MS Winword 2013: Chủ đề nào không thuộc Menu Home
+A.	Links
+B.	Font
+C.	Paragraph
+D.	Styles Answer: A
+
+52.	MS Winword 2013: Chủ đề nào không thuộc Menu Home
+A.	Tables
+B.	Font
+C.	Paragraph
+D.	Styles Answer: A
+
+53.	MS Winword 2013: Chủ đề nào không thuộc Menu Home
+A.	Header & Footer
+B.	Font
+C.	Paragraph
+D.	Styles Answer: A
+
+54.	MS Winword 2013: Chủ đề nào không thuộc Menu Home
+A.	Text
+B.	Font
+C.	Paragraph
+D.	Styles Answer: A
+
+55.	MS Winword 2013: Chủ đề nào không thuộc Menu Insert
+A.	Font
+B.	Links
+C.	Tables
+D.	Header & Footer Answer: A
+
+56.	MS Winword 2013: Chủ đề nào không thuộc Menu Insert
+A.	Paragraph
+B.	Links
+C.	Tables
+D.	Header & Footer Answer: A
+
+57.	MS Winword 2013: Chủ đề nào không thuộc Menu Insert
+A.	Styles
+ 
+B.	Links
+C.	Tables
+D.	Header & Footer Answer: A
+
+58.	MS Winword 2013: Chủ đề nào không thuộc Menu Insert
+A.	Clipboard
+B.	Links
+C.	Tables
+D.	Header & Footer Answer: A
+
+59.	MS Winword 2013: Chủ đề nào không thuộc Menu Insert
+A.	Editing
+B.	Links
+C.	Tables
+D.	Header & Footer Answer: A
+
+60.	MS Winword 2013: Chủ đề nào thuộc Menu Page Layout
+A.	Themes
+B.	Links
+C.	Font
+D.	Styles Answer: A
+
+61.	MS Winword 2013: Chủ đề nào thuộc Menu Page Layout
+A.	Page Setup
+B.	Links
+C.	Font
+D.	Styles Answer: A
+
+62.	MS Winword 2013: Chủ đề nào thuộc Menu Page Layout
+A.	Paragraph
+B.	Links
+C.	Font
+D.	Styles Answer: A
+
+63.	MS Winword 2013: Chủ đề nào thuộc Menu Page Layout
+A.	Page Backgroud
+B.	Links
+C.	Font
+ 
+D.	Styles Answer: A
+
+64.	MS Winword 2013: Chủ đề nào thuộc Menu Page Layout
+A.	Arrange
+B.	Links
+C.	Font
+D.	Styles Answer: A
+
+65.	MS Winword 2013: Chủ đề nào thuộc Menu Insert
+A.	Links
+B.	Page Setup
+C.	Page Backgroud
+D.	Paragraph Answer: A
+
+66.	MS Winword 2013: Chủ đề nào thuộc Menu Insert
+A.	Tables
+B.	Page Setup
+C.	Page Backgroud
+D.	Paragraph Answer: A
+
+67.	MS Winword 2013: Chủ đề nào thuộc Menu Insert
+A.	Header & Footer
+B.	Page Setup
+C.	Page Backgroud
+D.	Paragraph Answer: A
+
+68.	MS Winword 2013: Chủ đề nào thuộc Menu Insert
+A.	Pages
+B.	Page Setup
+C.	Page Backgroud
+D.	Paragraph Answer: A
+
+69.	MS Winword 2013: Chủ đề nào thuộc Menu Insert
+A.	Symbols
+B.	Page Setup
+C.	Page Backgroud
+D.	Paragraph Answer: A
+ 
+70.	MS Winword 2013: Chủ đề nào thuộc Menu Home
+A.	Font
+B.	Links
+C.	Themes
+D.	Symbols Answer: A
+
+71.	MS Winword 2013: Chủ đề nào thuộc Menu Home
+A.	Paragraph
+B.	Links
+C.	Themes
+D.	Symbols Answer: A
+
+72.	MS Winword 2013: Chủ đề nào thuộc Menu Home
+A.	Styles
+B.	Links
+C.	Themes
+D.	Symbols Answer: A
+
+73.	MS Winword 2013: Chủ đề nào thuộc Menu Home
+A.	Editing
+B.	Links
+C.	Themes
+D.	Symbols Answer: A
+
+74.	MS Winword 2013: Chủ đề nào thuộc Menu References
+A.	Table of Contents
+B.	Page Setup
+C.	Tables
+D.	Paragraph Answer: A
+
+75.	MS Winword 2013: Chủ đề nào thuộc Menu References
+A.	Footnotes
+B.	Page Setup
+C.	Tables
+D.	Paragraph Answer: A
+
+76.	MS Winword 2013: Chủ đề nào thuộc Menu References
+ 
+A.	Captions
+B.	Page Setup
+C.	Tables
+D.	Paragraph Answer: A
+
+77.	MS Winword 2013: Chủ đề nào thuộc Menu References
+A.	Index
+B.	Page Setup
+C.	Tables
+D.	Paragraph Answer: A
+
+78.	MS Winword 2013: Chủ đề nào thuộc Menu References
+A.	Table of Authorities
+B.	Page Setup
+C.	Tables
+D.	Paragraph Answer: A
+79.	MS Winword 2013: Chủ đề nào không thuộc Menu References
+A.	Themes
+B.	Index
+C.	Footnotes
+D.	Table of Contents Answer: A
+
+80.	MS Winword 2013: Chủ đề nào không thuộc Menu References
+A.	Page Setup
+B.	Index
+C.	Footnotes
+D.	Table of Contents Answer: A
+
+81.	MS Winword 2013: Chủ đề nào không thuộc Menu References
+A.	Paragraph
+B.	Index
+C.	Footnotes
+D.	Table of Contents Answer: A
+
+82.	MS Winword 2013: Chủ đề nào không thuộc Menu References
+A.	Page Backgroud
+B.	Index
+C.	Footnotes
+ 
+D.	Table of Contents Answer: A
+
+83.	MS Winword 2013: Chủ đề nào không thuộc Menu References
+A.	Arrange
+B.	Index
+C.	Footnotes
+D.	Table of Contents Answer: A
+
+84.	MS Winword 2013: Chủ đề nào không thuộc Menu References
+A.	Links
+B.	Index
+C.	Footnotes
+D.	Table of Contents Answer: A
+
+85.	MS Winword 2013: Chủ đề nào không thuộc Menu References
+A.	Tables
+B.	Index
+C.	Footnotes
+D.	Table of Contents Answer: A
+
+86.	MS Winword 2013: Chủ đề nào không thuộc Menu References
+A.	Header & Footer
+B.	Index
+C.	Footnotes
+D.	Table of Contents Answer: A
+
+87.	MS Winword 2013: Chủ đề nào không thuộc Menu References
+A.	Pages
+B.	Index
+C.	Footnotes
+D.	Table of Contents Answer: A
+
+88.	MS Winword 2013: Chủ đề nào không thuộc Menu References
+A.	Symbols
+B.	Index
+C.	Footnotes
+D.	Table of Contents Answer: A
+ 
+89.	MS Winword 2013: Chủ đề nào không thuộc Menu References
+A.	Font
+B.	Index
+C.	Footnotes
+D.	Table of Contents Answer: A
+
+90.	MS Winword 2013: Chủ đề nào không thuộc Menu References
+A.	Paragraph
+B.	Index
+C.	Footnotes
+D.	Table of Contents Answer: A
+
+91.	MS Winword 2013: Chủ đề nào không thuộc Menu References
+A.	Styles
+B.	Index
+C.	Footnotes
+D.	Table of Contents Answer: A
+
+92.	MS Winword 2013: Chủ đề nào không thuộc Menu References
+A.	Editing
+B.	Index
+C.	Footnotes
+D.	Table of Contents Answer: A
+
+93.	MS Winword 2013: Lệnh nào để chọn danh sách khi thực hiện Mailings
+A.	Start Mail Merge
+B.	Finish
+C.	Preview Results
+D.	Insert Merge Field Answer: A
+
+94.	MS Winword 2013: Lệnh nào để chèn thông tin khi thực hiện Mailings
+A.	Insert Merge Field
+B.	Finish
+C.	Preview Results
+D.	Start Mail Merge Answer: A
+
+95.	MS Winword 2013: Lệnh nào để xem trước trộn thư khi thực hiện Mailings
+ 
+A.	Preview Results
+B.	Start Mail Merge
+C.	Finish
+D.	Insert Merge Field Answer: A
+
+96.	MS Winword 2013: Lệnh nào thực hiện trộn thư khi thực hiện Mailings
+A.	Finish
+B.	Start Mail Merge
+C.	Preview Results
+D.	Insert Merge Field Answer: A
+
+97.	MS Winword 2013: Lệnh nào không thuộc công việc Mailings
+A.	Footnotes
+B.	Start Mail Merge
+C.	Preview Results
+D.	Insert Merge Field Answer: A
+
+98.	MS Winword 2013: Lệnh nào không thuộc công việc Mailings
+A.	Index
+B.	Start Mail Merge
+C.	Preview Results
+D.	Insert Merge Field Answer: A
+
+99.	MS Winword 2013: Lệnh nào không thuộc công việc Mailings
+A.	Links
+B.	Start Mail Merge
+C.	Preview Results
+D.	Insert Merge Field Answer: A
+
+100.	MS Winword 2013: Lệnh nào không thuộc công việc Mailings
+A.	Footnotes
+B.	Start Mail Merge
+C.	Preview Results
+D.	Insert Merge Field Answer: A
+
+101.	MS Winword 2013: Lệnh nào không thuộc công việc Mailings
+A.	Captions
+B.	Start Mail Merge
+ 
+C.	Preview Results
+D.	Insert Merge Field Answer: A
+
+102.	MS Winword 2013: Lệnh nào không thuộc công việc Mailings
+A.	Editing
+B.	Start Mail Merge
+C.	Preview Results
+D.	Insert Merge Field Answer: A
+
+103.	MS Winword 2013: Lệnh nào không thuộc công việc Mailings
+A.	Insert Merge Field
+B.	Arrange
+C.	Start Mail Merge
+D.	Preview Results Answer: B
+
+104.	MS Winword 2013: Lệnh nào không thuộc công việc Mailings
+A.	Themes
+B.	Start Mail Merge
+C.	Preview Results
+D.	Insert Merge Field Answer: A
+
+105.	MS Winword 2013: Chủ đề định dạng nào sau đây dùng để thụt đầu dòng đoạn văn bản
+A.	Indent
+B.	Paragraph: Tab
+C.	Numberring
+D.	Column Answer: A
+
+106.	MS Winword 2013: Chủ đề định dạng nào sau đây dùng để thụt dòng con đoạn văn bản
+A.	Indent
+B.	Paragraph: Tab
+C.	Numberring
+D.	Column Answer: A
+
+107.	MS Winword 2013: Chủ đề định dạng nào sau đây dùng để canh từ giữa văn bản
+A.	Paragraph
+B.	Dropcap
+ 
+C.	Numberring
+D.	Column Answer: A
+
+108.	MS Winword 2013: Chủ đề định dạng nào sau đây dùng để canh từ bên trái văn bản
+A.	Paragraph
+B.	Dropcap
+C.	Numberring
+D.	Column Answer: A
+
+109.	MS Winword 2013: Chủ đề định dạng nào sau đây dùng để canh từ bên phải văn bản
+A.	Paragraph
+B.	Dropcap
+C.	Numberring
+D.	Column Answer: A
+
+110.	MS Winword 2013: Chủ đề định dạng nào sau đây dùng để canh đều văn bản
+A.	Paragraph
+B.	Dropcap
+C.	Numberring
+D.	Column Answer: A
+
+111.	MS Winword 2013: Chủ đề định dạng nào sau đây dùng để chọn màu chữ của từ
+A.	Font
+B.	Indent
+C.	Numberring
+D.	Column Answer: A
+
+112.	MS Winword 2013: Chủ đề định dạng nào sau đây dùng để chọn màu nền của từ
+A.	Font
+B.	Indent
+C.	Numberring
+D.	Column Answer: A
+
+113.	MS Winword 2013: Chủ đề định dạng nào sau đây dùng để làm nghiêng từ
+A.	Font
+B.	Indent
+C.	Numberring
+D.	Column
+ 
+Answer: A
+
+114.	MS Winword 2013: Chủ đề định dạng nào sau đây dùng để làm đậm từ
+A.	Font
+B.	Indent
+C.	Numberring
+D.	Column Answer: A
+
+115.	MS Winword 2013: Chủ đề định dạng nào sau đây dùng để gạch chân từ
+A.	Font
+B.	Indent
+C.	Numberring
+D.	Column Answer: A
+
+116.	MS Winword 2013: Chủ đề định dạng nào sau đây dùng để canh giữa từ ở vị trí bất kỳ
+A.	Tab
+B.	Dropcap
+C.	Numberring
+D.	Column Answer: A
+
+117.	MS Winword 2013: Chủ đề định dạng nào sau đây dùng để canh trái từ ở vị trí bất kỳ
+A.	Tab
+B.	Dropcap
+C.	Numberring
+D.	Column Answer: A
+
+118.	MS Winword 2013: Chủ đề định dạng nào sau đây dùng để canh phải từ ở vị trí bất kỳ
+A.	Tab
+B.	Dropcap
+C.	Numberring
+D.	Column Answer: A
+
+119.	MS Winword 2013: Chủ đề định dạng nào sau đây dùng cách dòng trên của dòng đang chọn
+A.	Paragraph - Spacing
+B.	Paragraph - Tab
+ 
+C.	Paragraph - Leader
+D.	Paragraph - Font Answer: A
+
+120.	MS Winword 2013: Chủ đề định dạng nào sau đây dùng cách dòng dưới của dòng đang chọn
+A.	Paragraph - Spacing
+B.	Paragraph - Tab
+C.	Paragraph - Leader
+D.	Paragraph - Font Answer: A
+
+121.	MS Winword 2013: Chủ đề định dạng nào sau đây dùng để tạo các dấu chấm tự động
+A.	Paragraph - Tab
+B.	Paragraph - Spacing
+C.	Paragraph - Leader
+D.	Paragraph - Font Answer: A
+
+122.	MS Winword 2013: Chủ đề định dạng nào sau đây dùng để tạo chỉ mục 3.1.1
+A.	Numberring
+B.	Indent
+C.	Font
+D.	Column Answer: A
+
+123.	MS Winword 2013: Chủ đề định dạng nào sau đây dùng để chia các đoạn văn thành 2 cột
+A.	Column
+B.	Indent
+C.	Font
+D.	Numberring Answer: A
+
+124.	MS Winword 2013: Chủ đề định dạng nào sau đây dùng để chia các đoạn văn thành 4 cột
+A.	Column
+B.	Indent
+C.	Font
+D.	Numberring Answer: A
+
+125.	MS Winword 2013: Kỹ thuật nào dùng gộp các ô của Table
+ 
+A.	Merge cell
+B.	Auto Fix
+C.	Cell Alignment
+D.	Border & Shadding Answer: A
+
+126.	MS Winword 2013: Kỹ thuật nào dùng chỉnh độ rộng của Table
+A.	Auto Fix
+B.	Merge cell
+C.	Cell Alignment
+D.	Border & Shadding Answer: A
+
+127.	MS Winword 2013: Kỹ thuật nào dùng canh chữ nằm giữa trong ô của Table
+A.	Cell Alignment
+B.	Auto Fix
+C.	Merge cell
+D.	Border & Shadding Answer: A
+
+128.	MS Winword 2013: Kỹ thuật nào dùng kẻ các đường ngoài cùng của Table
+A.	Border & Shadding
+B.	Auto Fix
+C.	Cell Alignment
+D.	Merge cell Answer: A
+
+129.	MS Winword 2013: Kỹ thuật nào dùng kẻ đường chéo trong ô của Table
+A.	Border & Shadding
+B.	Auto Fix
+C.	Cell Alignment
+D.	Merge cell Answer: A
+
+130.	MS Winword 2013: Kỹ thuật nào dùng đặt chữ dọc trong ô của Table
+A.	Text Direction
+B.	Auto Fix
+C.	Cell Alignment
+D.	Merge cell Answer: A
+
+131.	MS Winword 2013: Kỹ thuật nào dùng tô màu nền các dòng của Table
+A.	Border & Shadding
+B.	Auto Fix
+ 
+C.	Cell Alignment
+D.	Merge cell Answer: A
+
+132.	MS Winword 2013: Kỹ thuật nào dùng chọn kiểu tô nền các dòng của Table
+A.	Border & Shadding
+B.	Auto Fix
+C.	Cell Alignment
+D.	Merge cell Answer: A
+
+133.	MS Winword 2013: Kỹ thuật nào cố định bức hình trong văn bản
+A.	In Line with Text
+B.	In Front of Text
+C.	Tight
+D.	Paragraph - Font Answer: A
+
+134.	MS Winword 2013: Kỹ thuật nào cho phép bức hình đi tự do trong văn bản
+A.	In Front of Text
+B.	In Line with Text
+C.	Tight
+D.	Paragraph - Font Answer: A
+
+135.	MS Winword 2013: Kỹ thuật nào đặt bức hình lọt giữa văn bản
+A.	Tight
+B.	In Front of Text
+C.	In Line with Text
+D.	Paragraph - Font Answer: A
+
+136.	MS Winword 2013: Kỹ thuật nào đặt bức hình lọt giữa văn bản
+A.	Square
+B.	In Front of Text
+C.	Tight
+D.	Paragraph - Font Answer: A
+
+137.	MS Winword 2013: Kỹ thuật nào đặt bức hình lọt giữa văn bản
+A.	Through
+B.	In Front of Text
+C.	Tight
+D.	Paragraph - Font
+ 
+Answer: A
+
+138.	MS Winword 2013: Kỹ thuật nào quy định cách đặt hình ảnh trong văn bản
+A.	Wrap Text
+B.	Add Text
+C.	Edit Points
+D.	Insert Caption Answer: A
+
+139.	MS Winword 2013: Kỹ thuật nào chèn chữ vào hình shape
+A.	Add Text
+B.	Wrap Text
+C.	Edit Points
+D.	Insert Caption Answer: A
+
+140.	MS Winword 2013: Kỹ thuật nào làm thay đổi vị trí các cạnh hình shape
+A.	Edit Points
+B.	Add Text
+C.	Wrap Text
+D.	Insert Caption Answer: A
+
+141.	MS Winword 2013: Kỹ thuật nào chèn tiêu đề cho hình shape
+A.	Insert Caption
+B.	Add Text
+C.	Edit Points
+D.	Wrap Text Answer: A
+
+150.	MS Winword 2013: Kỹ thuật nào để di chuyển number khi định dạng Numbering
+A.	First Line
+B.	Hanging
+C.	Left Indent
+D.	Right Indent Answer: A
+
+151.	MS Winword 2013: kỹ thuật nào để di chuyển tiêu đề khi định dạng Numbering
+A.	Hanging
+B.	First Line
+C.	Left Indent
+D.	Right Indent Answer: A
+ 
+152.	MS Winword 2013: kỹ thuật nào để di chuyển tiêu đề khi định dạng Numbering
+A.	Tab
+B.	First Line
+C.	Left Indent
+D.	Right Indent Answer: A
+
+166.	MS Winword 2013: Độ rộng của Table sử dụng kỹ thuật nào
+A.	AutoFix Contents
+B.	AutoFix Windows
+C.	Tự do
+D.	Paragraph - Font Answer: A
+
+167.	MS Winword 2013: để Table nằm nhưng trong văn bản, ta sử dụng kỹ thuật nào
+A.	Paragraph
+B.	Column
+C.	Tab
+D.	Numbering Answer: A
+
+168.	MS Winword 2013: để tạo khoảng hở của các dòng, các đoạn trong văn bản, ta sử dụng kỹ thuật nào
+A.	Paragraph
+B.	Phím Enter
+C.	Font
+D.	Numbering Answer: A
+
+25.	MS Excel 2013: để gắn mật khẩu cho Workbook hiện hành ta thực hiện cụm thao tác nào sau đây?
+A.	vào File\Info\Protect Workbook\Encrypt With Password
+B.	vào File\Info\Protect Workbook\Protect CurrentSheet
+C.	vào File\Info\Protect Workbook\Protect Workbook Structure
+D.	Click chuột phải tại tên Sheet\Protect Sheet Answer: A
+26.	MS Excel 2013: để gắn mật khẩu cho Work Sheet hiện hành ta thực hiện cụm thao tác nào sau đây?
+A.	Vào File\Info\Protect Workbook\Encrypt With Password
+B.	Vào File\New\Info\Protect Workbook\Protect CurrentSheet
+C.	Vào File\New\ Protect CurrentSheet
+D.	Vào File\Edit\ Protect CurrentSheet Answer: A
+ 
+27.	MS Excel 2013: để gắn mật khẩu cho Workbook hệ thống yêu cầu ta nhập mật khẩu mấy lần?
+A.	1
+B.	2
+C.	3
+D.	1 hoặc 2 lần đều được Answer: B
+
+28.	MS Excel 2013: để mở một Workbook đã được gắn mật khẩu hệ thống yêu cầu ta nhập mật khẩu mấy lần?
+A.	1
+B.	2
+C.	Không yêu cầu nhập.
+D.	1 hoặc 2 lần đều được Answer: A
+
+29.	MS Excel 2013: để gắn mật khẩu cho WorkSheet hệ thống yêu cầu ta nhập mật khẩu mấy lần?
+A.	1
+B.	2
+C.	3
+D.	1 hoặc 2 lần đều được Answer: B
+30.	MS Excel 2013: để thao tác trên WorkSheet đã được gắn mật khẩu hệ thống yêu cầu ta nhập mật khẩu mấy lần?
+A.	1
+B.	2
+C.	Không yêu cầu nhập mật khẩu vì gắn mật khẩu chỉ để bảo vệ WorkSheet không bị xóa.
+D.	1 hoặc 2 lần đều được Answer: A
+31.	MS Excel 2013: để xóa mật khẩu cho Workbook hiện hành ta thực hiện cụm thao tác nào sau đây?
+A.	vào File\Info\Protect Workbook\Encrypt With Password, xóa mật khẩu và lưu Flie
+B.	vào File\Info\Protect Workbook\Protect CurrentSheet, xóa mật khẩu và lưu Flie
+C.	vào File\Info\Protect Workbook\Protect Workbook Structure
+D.	Click chuột phải tại tên Sheet\Unprotect Sheet Answer: A
+
+32.	MS Excel 2013: Trong bảng tính Excel, khi ta thực hiện lệnh Data\Filter và chỉ định điều kiện lọc tại một Trường (cột) trên cơ sở dữ liệu, Phát biểu nào sau đây là đúng?
+A.	Cơ sở dữ liệu chỉ hiển thị những dòng thỏa mãn điều kiện lọc tại cột được chỉ định điều kiện lọc
+B.	Cơ sở dữ liệu sẽ xóa những dòng không thỏa mãn điều kiện lọc tại cột được chỉ định điều kiện lọc
+C.	Cơ sở dữ liệu sẽ xuất những dòng thỏa mãn điều kiện lọc tại cột được chỉ định điều kiện lọc ra vị trí khác trên bảng tính
+ 
+D.	Cơ sở dữ liệu không hiển thị các dòng thỏa mãn điều kiện lọc Answer: A
+33.	MS Excel 2013: Trong bảng tính Excel, khi ta thực hiện lệnh Data\Filter và chỉ định điều kiện lọc tại một Trường (cột) trên cơ sở dữ liệu, Phát biểu nào sau đây là đúng?
+A.	Cơ sở dữ liệu sẽ xuất những dòng thỏa mãn điều kiện lọc tại cột được chỉ định điều kiện lọc ra vị trí khác trên bảng tính
+B.	Cơ sở dữ liệu sẽ xóa những dòng không thỏa mãn điều kiện lọc tại cột được chỉ định điều kiện lọc
+C.	Cơ sở dữ liệu sẽ ẩn những dòng không thỏa mãn điều kiện lọc tại cột được chỉ định điều kiện lọc
+D.	Cơ sở dữ liệu sẽ xuất những dòng không cần thỏa mãn điều kiện lọc Answer: C
+34.	MS Excel 2013: Trong bảng tính Excel, khi ta thực hiện lệnh Data\Filter và chỉ định điều kiện lọc tại hai Trường (cột) trên cơ sở dữ liệu, Phát biểu nào sau đây là đúng?
+A.	Cơ sở dữ liệu sẽ xuất những dòng thỏa mãn điều kiện lọc tại cả hai cột được chỉ định điều kiện lọc ra vị trí khác trên bảng tính
+B.	Cơ sở dữ liệu sẽ ẩn những dòng không thỏa mãn cả hai điều kiện lọc tại các cột được chỉ định điều kiện lọc
+C.	Cơ sở dữ liệu sẽ ẩn những dòng không thỏa mãn một trong hai điều kiện lọc tại các cột được chỉ định điều kiện lọc
+D.	Cơ sở dữ liệu sẽ hiển thị những dòng không thỏa mãn Answer: B
+35.	MS Excel 2013: Trong bảng tính Excel, khi ta thực hiện lệnh Data\Filter và chỉ định điều kiện lọc tại hai Trường (cột) trên cơ sở dữ liệu, Phát biểu nào sau đây là đúng?
+A.	Cơ sở dữ liệu chỉ hiển thị những dòng thỏa mãn cả hai điều kiện lọc tại các cột được chỉ định điều kiện lọc
+B.	Cơ sở dữ liệu chỉ hiển thị những dòng thỏa mãn một trong hai điều kiện lọc tại các cột được chỉ định điều kiện lọc
+C.	Cơ sở dữ liệu sẽ xuất những dòng thỏa mãn cả hai điều kiện lọc tại các cột được chỉ định điều kiện lọc ra vị trí khác trên bảng tính
+D.	Cơ sở dữ liệu sẽ xuất những dòng không thỏa mãn cả hai điều kiện lọc tại các cột được chỉ định điều kiện lọc ra vị trí khác trên bảng tính
+Answer: A
+
+36.	MS Excel 2013: Trong bảng tính Excel, khi ta thực hiện trích xuất dữ liệu bằng lệnh Data\Advanced thì phải tạo miền điều kiện, phát biểu nào sau đây về vị trí của miền điều kiện là đúng nhất?
+A.	Phải tạo tại Sheet chứa cơ sở dữ liệu
+B.	Phải tạo tại Sheet chứa kết quả trích xuất dữ liệu
+C.	Tại Sheet chứa kết quả trích xuất dữ liệu hoặc Sheet chứa cơ sở dữ liệu
+D.	Tại vị trí tùy chọn mà không làm ảnh hưởng đến Cơ sở dữ liệu Answer: D
+ 
+37.	MS Excel 2013: Trong bảng tính Excel, khi ta thực hiện trích xuất dữ liệu bằng lệnh Data\Advanced, có 2 điều kiện trích xuất liên quan đến 2 trường dữ liệu và phải thỏa mãn đồng thời, phương án nhập điều kiện nào sau đây là đúng?
+A.	Nhập 2 điều kiện trên cùng dòng
+B.	Nhập 2 điều kiện trên khác dòng khác cột
+C.	Nhập 2 điều kiện trên khác dòng cùng cột
+D.	Nhập 3 điều kiện trên khác dòng cùng cột Answer: A
+
+38.	MS Excel 2013: Trong bảng tính Excel, khi ta thực hiện trích xuất dữ liệu bằng lệnh Data\Advanced, có 2 điều kiện trích xuất liên quan đến 2 trường dữ liệu và chỉ cần thỏa mãn 1 trong 2 điều kiện, phương án nhập điều kiện nào sau đây là đúng?
+A.	Nhập 2 điều kiện trên cùng dòng
+B.	Nhập 2 điều kiện trên khác dòng khác cột
+C.	Nhập 2 điều kiện trên khác dòng cùng cột
+D.	Nhập 3 điều kiện trên khác dòng cùng cột Answer: B
+39.	MS Excel 2013: Trong bảng tính Excel, khi ta thực hiện trích xuất dữ liệu bằng lệnh Data\Advanced, có 2 điều kiện trích xuất liên quan đến 1 trường dữ liệu và phải thỏa mãn đồng thời, phương án nhập điều kiện nào sau đây là đúng?
+A.	Tên trường được sử dụng 2 lần trong miền điều kiện, nhập 2 điều kiện trên cùng dòng
+B.	Tên trường được sử dụng 2 lần trong miền điều kiện, nhập 2 điều kiện trên khác dòng khác cột
+C.	Nhập 2 điều kiện trên khác dòng cùng cột
+D.	Nhập 2 điều kiện trên cùng dòng cùng cột Answer: A
+40.	MS Excel 2013: Trong bảng tính Excel, khi ta thực hiện trích xuất dữ liệu bằng lệnh Data\Advanced, có 2 điều kiện trích xuất liên quan đến 1 trường dữ liệu và chỉ cần thỏa mãn 1 trong 2 điều kiện, phương án nhập điều kiện nào sau đây là đúng?
+A.	Tên trường được sử dụng 2 lần trong miền điều kiện, nhập 2 điều kiện trên cùng dòng
+B.	Tên trường được sử dụng 2 lần trong miền điều kiện, nhập 2 điều kiện trên khác dòng khác cột
+C.	Nhập 2 điều kiện trên khác dòng cùng cột
+D.	Nhập 2 điều kiện trên cùng dòng cùng cột Answer: C
+
+41.	MS Excel 2013: Trong bảng tính Excel, khi ta thực hiện trích xuất dữ liệu bằng lệnh Data\Advanced và chỉ định miền điều kiện, phát biểu về kết quả nào sau đây là đúng?
+A.	Cơ sở dữ liệu chỉ hiển thị những dòng thỏa mãn miền điều kiện và ẩn các dòng còn lại
+B.	Cơ sở dữ liệu sẽ xóa những dòng không thỏa mãn miền điều kiện
+C.	Cơ sở dữ liệu sẽ xuất những dòng thỏa mãn miền điều kiện ra vị trí khác
+D.	Nhập 2 điều kiện trên cùng dòng cùng cột Answer: C
+ 
+42.	MS Excel 2013: Trong bảng tính Excel có 2 Sheets (Sheet1 và Sheet2). Cơ sở dữ liệu nằm trên Sheet1, miền điều kiện nằm ở Sheet2, khi ta ở Sheet1 và thực hiện trích xuất dữ liệu bằng lệnh Data\Advanced kết quả thực hiện cho phép xuất ra ở đâu?
+A.	Sheet1
+B.	Sheet2
+C.	Sheet1 hoặc Sheet2 đều được
+D.	Kết quả xuất ra ở Sheet mới (không phải Sheet1 hay Sheet2) Answer: A
+
+43.	MS Excel 2013: Trong bảng tính Excel có 2 Sheets (Sheet1 và Sheet2). Cơ sở dữ liệu và miền điều kiện nằm trên Sheet1, khi ta ở Sheet2 và thực hiện trích xuất dữ liệu bằng lệnh Data\Advanced kết quả thực hiện cho phép xuất ra ở đâu?
+A.	Sheet1
+B.	Sheet2
+C.	Sheet1 hoặc Sheet2 đều được
+D.	Kết quả xuất ra ở Sheet mới (không phải Sheet1 hay Sheet2) Answer: B
+44.	MS Excel 2013: Trong bảng tính Excel có 2 Sheets (Sheet1 và Sheet2). Cơ sở dữ liệu nằm trên Sheet2, miền điều kiện nằm ở Sheet1, khi ta ở Sheet1 và thực hiện trích xuất dữ liệu bằng lệnh Data\Advanced kết quả thực hiện cho phép xuất ra ở đâu?
+A.	Sheet1
+B.	Sheet2
+C.	Sheet1 hoặc Sheet2 đều được
+D.	Kết quả xuất ra ở Sheet mới (không phải Sheet1 hay Sheet2) Answer: A
+45.	MS Excel 2013: Trong bảng tính Excel có 2 Sheets (Sheet1 và Sheet2). Cơ sở dữ liệu nằm trên Sheet1, miền điều kiện nằm ở Sheet2, khi ta ở Sheet2 và thực hiện trích xuất dữ liệu bằng lệnh Data\Advanced kết quả thực hiện cho phép xuất ra ở đâu?
+A.	Sheet1
+B.	Sheet2
+C.	Sheet1 hoặc Sheet2 đều được
+D.	Kết quả xuất ra ở Sheet mới (không phải Sheet1 hay Sheet2) Answer: B
+
+91.	MS Excel 2013: Để thực hiện tính năng lọc nâng cao, ta thực hiện các bước nào sau đây
+A.	Vào tab Data/ trong nhóm Sort&Filter/ Chọn Sort
+B.	Vào tab Data/ trong nhóm Sort&Filter/ Chọn Filter
+C.	Vào tab Data/ trong nhóm Sort&Filter/ Chọn Advanced
+D.	Vào tab Data/ trong nhóm Advanced / Chọn Filter Answer: C
+
+94.	MS Excel 2013: Tại địa chỉ A1=”A1-Đường-23”, A2=”B1-Sữa-13”, A3=”C1-Muối- 12”. Để điền thông tin tên hàng Đường, Sữa và muối vào các địa chỉ B1,B2 B3 Bạn phải sử dụng công thức nào sau đây:
+A.	MID(A1, 4, LEN(A1)-5)
+ 
+B.	MID(A1, 4, 5)
+C.	MID(A1, 4, 3)
+D.	LEFT(A1, 4, LEN(A1)-5)
+Answer: A
+
+95.	MS Excel 2013: Tại địa chỉ A1=”Tuấn, Nguyễn Văn”, A2=”Trang-Trần Thị”, A3=”Phương, Lưu Thị Ánh” là thông tin họ và tên thí sinh. Để điền thông tin tên thí sinh vào các địa chỉ B1,B2 B3 Bạn phải sử dụng công thức nào sau đây:
+A.	LEFT(A1, 4)
+B.	RIGHT(A1, FIND(“,”,A1)-1)
+C.	LEFT(A1, 6)
+D.	LEFT(A1, FIND(“,”,A1)-1)
+Answer: D
+109. MS Excel 2013: Tại địa chỉ A1=”Phương, Hà Trình Như” là họ và tên thí sinh, muốn điều tên thí sinh tại địa chỉ B1 và họ thí sinh tại địa chỉ B2. Ta sử dụng các hàm nào sau đây?
+A.	B1 sử dụng các hàm MID, RIGHT tại B2 sử dụng các hàm MID, RIGHT, LEN
+B.	B1 sử dụng các hàm MID, LEN tại B2 sử dụng các hàm MID, LEFT, LEN
+C.	B1 sử dụng các hàm LEFT, LEFT tại B2 sử dụng các hàm MID, RIGHT, LEN
+D.	B1 sử dụng các hàm LEFT, FIND tại B2 sử dụng các hàm MID, FIND, LEN Answer: D
+
+118.	MS Excel 2013: Các hàm sau đây hàm nào không phải là hàm xử lý cơ sở dữ liệu?
+A.	DMIN
+B.	DCOUNT
+C.	DSUM
+D.	SUM
+Answer: D
+
+119.	MS Excel 2013: Các hàm sau đây hàm nào không phải là hàm thống kê điều kiện đơn giản?
+A.	SUMIF
+B.	COUNTA
+C.	SUMIFS
+D.	DSUM
+Answer: B
+150.	MS Excel 2013: Tại địa chỉ A1=”A-ĐƯỜNG-L1”, A2=”B-ĐƯỜNG-L2”, A3=”C-
+ĐƯỜNG-L1”. Để đếm có bao nhiêu mặt hàng loại 1. Ta phải dụng công thức nào sau đây?
+A.	COUNTIFS(A1:A3,”L1”)
+B.	COUNTIFS(A1:A3,”1”)
+C.	COUNTIF(A1:A3,”1”)
+D.	COUNTIF(A1:A3,”*L1”)
+Answer: D
+ 
+151.	MS Excel 2013: Tại địa chỉ A1=”A-GẠO-L1”, A2=”B-ĐƯỜNG-L2”, A3=”C-
+ĐƯỜNG-L1”, B1=20, B2=10, B3=35 (cột A là mã hàng, cột B là số lượng). Để tính tổng số lượng mặt hàng đường loại 1. Ta phải dụng công thức nào sau đây?
+A.	SUMIFS(B1:B3, A1:A3,”*L1*”, A1:A3,”*ĐƯỜNG*”)
+B.	SUMIFS(B1:B3, A1:A3,”L1”, A1:A3,”ĐƯỜNG”)
+C.	SUMIFS(B1:B3, A1:A3,”*1*”, A1:A3,”ĐƯỜNG”)
+D.	SUMIFS(B1:B3, A1:A3,”L1”, A1:A3,”*ĐƯỜNG*”)
+Answer: A
+
+152.	MS Excel 2013: Tại địa chỉ A1=”A-ĐƯỜNG-L1”, A2=”B-ĐƯỜNG-L2”, A3=”C-
+ĐƯỜNG-L1”. Để đếm có bao nhiêu mặt hàng loại 1. Ta phải dụng công thức nào sau đây?
+A.	COUNTIFS(A1:A3,”*L1*”)
+B.	COUNTIFS(A1:A3,”L1”)
+C.	COUNTIF(A1:A3,”L1”)
+D.	COUNTIF(A1:A3,”1”)
+Answer: A
+153.	MS Excel 2013: Tại địa chỉ A1=”A-GẠO-L1”, A2=”B-ĐƯỜNG-L2”, A3=”C-
+ĐƯỜNG-L1”, B1=20, B2=10, B3=35 (cột A là mã hàng, cột B là số lượng). Để tính tổng số lượng mặt hàng đường loại 1. Ta phải dụng hàm nào sau đây?
+A.	DSUM
+B.	DCOUT
+C.	DMIN
+D.	DMAX
+Answer: A
+
+1.	MS Access 2013: File QLBH.accdb thuộc phiên bản nào
+A.	1997
+B.	2003
+C.	2007
+D.	1998
+Answer: A
+
+2.	MS Access 2013: Kiểu tạo bảng nào cho phép chọn kiểu dữ liệu của trường thông tin
+A.	Table Design
+B.	Table
+C.	Table Wizard
+D.	Query Answer: A
+
+3.	MS Access 2013: Kiểu tạo bảng nào cho phép không cần chọn kiểu dữ liệu
+A.	Table
+B.	Table Design
+C.	Table Wizard
+D.	Table Data Type
+ 
+Answer: A
+
+4.	MS Access 2013: Dòng Field của giao diện Query Design thể hiện điều gì
+A.	Tên trường được chọn
+B.	Tên bảng được chọn
+C.	Tên liên kết được chọn
+D.	Tên bảng không được chọn Answer: A
+
+5.	MS Access 2013: Dòng Table của giao diện Query Design thể hiện điều gì
+A.	Tên bảng được chọn
+B.	Tên trường được chọn
+C.	Tên liên kết được chọn
+D.	Tên trường không được chọn Answer: A
+
+6.	MS Access 2013: Dòng Sort của giao diện Query Design thể hiện điều gì
+A.	Tên trường được sắp xếp
+B.	Tên bảng được sắp xếp
+C.	Tên liên kết được sắp xếp
+D.	Tên bảng không được sắp xếp Answer: A
+
+7.	MS Access 2013: Dòng Show của giao diện Query Design thể hiện điều gì
+A.	Tên trường được hiển thị
+B.	Tên bảng được hiển thị
+C.	Tên liên kết được hiển thị
+D.	tên bảng không được hiển thị Answer: A
+
+8.	MS Access 2013: Dòng Criteria của giao diện Query Design thể hiện điều gì
+A.	Tên trường làm điều kiện
+B.	Tên bảng làm điều kiện
+C.	Tên liên kết làm điều kiện
+D.	Tên bảng không làm điều kiện Answer: A
+
+9.	MS Access 2013: Dòng Or của giao diện Query Design thể hiện điều gì
+A.	Điều kiện của trường thông tin
+B.	Điều kiện của bảng
+C.	Điều kiện của liên kết
+D.	Không có điều kiện của bảng Answer: A
+ 
+10.	MS Access 2013: Kiểu dữ liệu nào cho phép lưu tối đa 255 ký tự
+A.	Text
+B.	Memo
+C.	Currency
+D.	Yes/No Answer: A
+
+11.	MS Access 2013: Kiểu dữ liệu nào cho phép lưu trên 255 ký tự
+A.	Memo
+B.	Text
+C.	Currency
+D.	Yes/No Answer: A
+
+12.	MS Access 2013: Kiểu dữ liệu nào cho phép lưu số 333
+A.	Number
+B.	Text
+C.	Currency
+D.	Yes/No Answer: A
+
+13.	MS Access 2013: Kiểu dữ liệu nào cho phép lưu số 2.34
+A.	Number
+B.	Text
+C.	Currency
+D.	Yes/No Answer: A
+
+14.	MS Access 2013: Kiểu dữ liệu nào cho phép lưu số 100000
+A.	Number - Byte
+B.	Number - Integer
+C.	Number - Long Integer
+D.	Number - Double Answer: A
+
+15.	MS Access 2013: Kiểu dữ liệu nào cho phép lưu số 2.34
+A.	Number - Double
+B.	Number - Integer
+C.	Number - Long Integer
+D.	Number - Byte Answer: A
+
+16.	MS Access 2013: Kiểu dữ liệu nào cho phép lưu giá trị TRUE
+A.	Yes/No
+ 
+B.	Memo
+C.	Currency
+D.	Text Answer: A
+
+17.	MS Access 2013: Kiểu dữ liệu nào cho phép lưu giá trị FALSE
+A.	Yes/No
+B.	Memo
+C.	Currency
+D.	Text Answer: A
+
+18.	MS Access 2013: Kiểu dữ liệu nào cho phép lưu giá trị 10/03/2017
+A.	Date/Time
+B.	Memo
+C.	Number
+D.	Text Answer: A
+
+19.	MS Access 2013: Kiểu dữ liệu nào cho phép lưu giá trị 10/03/2017
+A.	Date/Time - Short Date
+B.	Date/Time - Long Date
+C.	Date/Time - Medium Date
+D.	Date/Time - General Date Answer: A
+
+20.	MS Access 2013: Thuộc tính Field Size của một trường có mục đích gì
+A.	Xác định kiểu dữ liệu
+B.	Định dạng dữ liệu
+C.	Ràng buộc nhập dữ liệu
+D.	Điều kiện nhập dữ liệu Answer: A
+
+21.	MS Access 2013: Thuộc tính Format của một trường có mục đích gì
+A.	Định dạng dữ liệu
+B.	Xác định kiểu dữ liệu
+C.	Ràng buộc nhập dữ liệu
+D.	Điều kiện nhập dữ liệu Answer: A
+
+22.	MS Access 2013: Thuộc tính Input Mask của một trường có mục đích gì
+A.	Ràng buộc nhập dữ liệu
+B.	Định dạng dữ liệu
+C.	Xác định kiểu dữ liệu
+ 
+D.	Điều kiện nhập dữ liệu Answer: A
+
+23.	MS Access 2013: Thuộc tính Caption của một trường có mục đích gì
+A.	Tạo nhãn cho tên trường dữ liệu
+B.	Định dạng dữ liệu
+C.	Ràng buộc nhập dữ liệu
+D.	Điều kiện nhập dữ liệu Answer: A
+
+24.	MS Access 2013: Thuộc tính Default Value của một trường có mục đích gì
+A.	Tạo một giá trị ban đầu cho trường dữ liệu
+B.	Định dạng dữ liệu
+C.	Ràng buộc nhập dữ liệu
+D.	Điều kiện nhập dữ liệu Answer: A
+
+25.	MS Access 2013: Thuộc tính Validation Rule của một trường có mục đích gì
+A.	Điều kiện nhập dữ liệu
+B.	Định dạng dữ liệu
+C.	Ràng buộc nhập dữ liệu
+D.	Xác định kiểu dữ liệu Answer: A
+
+26.	MS Access 2013: Thuộc tính Validation Text của một trường có mục đích gì
+A.	Lời nhắc điều kiện nhập dữ liệu
+B.	Lời nhắc định dạng dữ liệu
+C.	Lời nhắc ràng buộc nhập dữ liệu
+D.	Lời nhắc xác định kiểu dữ liệu Answer: A
+
+27.	MS Access 2013: Thuộc tính Required của một trường có mục đích gì
+A.	Yêu cầu phải nhập dữ liệu
+B.	Định dạng dữ liệu
+C.	Ràng buộc nhập dữ liệu
+D.	Điều kiện nhập dữ liệu Answer: A
+
+28.	MS Access 2013: Thuộc tính Allow Zero Length của một trường có mục đích gì
+A.	Không cho phép để trống dữ liệu
+B.	Định dạng dữ liệu
+C.	Ràng buộc nhập dữ liệu
+D.	Điều kiện nhập dữ liệu Answer: A
+ 
+29.	MS Access 2013: Thuộc tính Indexed của một trường có mục đích gì
+A.	Kiểm soát việc trùng lặp dữ liệu
+B.	Định dạng dữ liệu
+C.	Ràng buộc nhập dữ liệu
+D.	Điều kiện nhập dữ liệu Answer: A
+
+30.	MS Access 2013: Mệnh đề nào phát biểu đúng về Query
+A.	Chứa câu lệnh SQL dùng trích lọc dữ liệu từ Table
+B.	Trích lọc và sao chép dữ liệu từ Table
+C.	Trích lọc và chuyển dữ liệu từ Table
+D.	Dùng để xem, sửa, xóa các Record của Table Answer: A
+
+31.	MS Access 2013: Mệnh đề nào phát biểu đúng về Table
+A.	Lưu trữ dữ liệu do người dùng nhập liệu
+B.	Trích lọc và sao chép dữ liệu từ Table
+C.	Lập báo cáo có nguồn thông tin từ Query
+D.	Dùng để xem, sửa, xóa các Record của Table Answer: A
+
+32.	MS Access 2013: Mệnh đề nào phát biểu đúng về Form
+A.	Dùng để xem, sửa, xóa các Record của Table
+B.	Trích lọc và sao chép dữ liệu từ Table
+C.	Lập báo cáo có nguồn thông tin từ Query
+D.	Lưu trữ dữ liệu do người dùng nhập liệu Answer: A
+
+33.	MS Access 2013: Mệnh đề nào phát biểu đúng về Report
+A.	Lập báo cáo có nguồn thông tin từ Query
+B.	Trích lọc và sao chép dữ liệu từ Table
+C.	Lưu trữ dữ liệu do người dùng nhập liệu
+D.	Dùng để xem, sửa, xóa các Record của Table Answer: A
+
+34.	MS Access 2013: Query dùng để trích lọc thông tin là loại Query nào
+A.	Select
+B.	Update
+C.	Delete
+D.	Make Table Answer: A
+
+35.	MS Access 2013: Query dùng để cập nhật thông tin là loại Query nào
+ 
+A.	Update
+B.	Select
+C.	Delete
+D.	Append Answer: A
+
+36.	MS Access 2013: Query dùng để xóa thông tin là loại Query nào
+A.	Delete
+B.	Update
+C.	Select
+D.	Append Answer: A
+
+37.	MS Access 2013: Query cho phép người dùng nhập điều kiện trích lọc là loại Query nào
+A.	Select - Parameter
+B.	Select - Criteria
+C.	Select - Total
+D.	Select - Crosstab Answer: A
+
+38.	MS Access 2013: Query cho phép người dùng thống kê dữ liệu là loại Query nào
+A.	Select - Total
+B.	Select - Criteria
+C.	Select - Parameter
+D.	Select - Append Answer: A
+
+39.	MS Access 2013: Query cho phép người dùng thống kê dữ liệu là loại Query nào
+A.	Select - Crosstab
+B.	Select - Criteria
+C.	Select - Parameter
+D.	Select - Append Answer: A
+
+40.	MS Access 2013: Query nào cho phép thống kê tổng thành tiền của từng khách hàng
+A.	Select - Total
+B.	Select - Crosstab
+C.	Select - Criteria
+D.	Select - Crosstab Answer: A

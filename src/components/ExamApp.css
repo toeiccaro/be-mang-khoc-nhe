@@ -1,0 +1,482 @@
+.exam-app {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
+}
+
+/* Fixed Header */
+.exam-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid #e0e0e0;
+  z-index: 1000;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.exam-info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex: 1;
+}
+
+.exam-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
+  margin: 0;
+  max-width: 300px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.exam-progress {
+  font-size: 0.9rem;
+  color: #666;
+  background: #f5f5f5;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-weight: 500;
+}
+
+/* Fixed Timer */
+.timer-fixed {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1001;
+}
+
+/* Main Content with top margin */
+.exam-content {
+  margin-top: 20px;
+  padding: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .exam-header {
+    padding: 10px 15px;
+    height: 60px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+  }
+
+  .exam-info {
+    gap: 10px;
+    width: 100%;
+  }
+
+  .exam-title {
+    font-size: 1rem;
+    max-width: 200px;
+  }
+
+  .exam-progress {
+    font-size: 0.8rem;
+    padding: 3px 8px;
+  }
+
+  .timer-fixed {
+    top: 10px;
+    right: 10px;
+    transform: scale(0.8);
+    transform-origin: top right;
+  }
+
+  .exam-content {
+    margin-top: 80px;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .exam-header {
+    height: 50px;
+    padding: 8px 10px;
+  }
+
+  .exam-title {
+    font-size: 0.9rem;
+    max-width: 150px;
+  }
+
+  .timer-fixed {
+    transform: scale(0.7);
+  }
+
+  .exam-content {
+    margin-top: 70px;
+    padding: 10px;
+  }
+}
+
+/* Loading State */
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: white;
+}
+
+.loading-spinner {
+  width: 50px;
+  height: 50px;
+  border: 5px solid rgba(255, 255, 255, 0.3);
+  border-top: 5px solid white;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-bottom: 20px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* App Header */
+.app-header {
+  text-align: center;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.app-header h1 {
+  margin: 0 0 10px 0;
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.app-header p {
+  margin: 0;
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+/* Exam Preview */
+.exam-preview {
+  max-width: 800px;
+  margin: 30px auto 0;
+  background: white;
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  animation: slideUp 0.5s ease-out;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.preview-content h3 {
+  margin: 0 0 15px 0;
+  color: #2c3e50;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.preview-content p {
+  margin: 0 0 25px 0;
+  color: #6c757d;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+.exam-details {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  margin-bottom: 25px;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 10px;
+}
+
+.detail-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1rem;
+  color: #495057;
+  font-weight: 500;
+}
+
+.detail-icon {
+  font-size: 1.2rem;
+}
+
+.exam-instructions {
+  margin-bottom: 30px;
+  padding: 20px;
+  background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+  border-radius: 10px;
+  border-left: 4px solid #2196f3;
+}
+
+.exam-instructions h4 {
+  margin: 0 0 15px 0;
+  color: #1976d2;
+  font-size: 1.2rem;
+}
+
+.exam-instructions ul {
+  margin: 0;
+  padding-left: 20px;
+  color: #1565c0;
+}
+
+.exam-instructions li {
+  margin-bottom: 8px;
+  line-height: 1.4;
+}
+
+.start-exam-button {
+  width: 100%;
+  padding: 15px;
+  background: linear-gradient(135deg, #4caf50 0%, #45a049 100%);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(76, 175, 80, 0.3);
+}
+
+.start-exam-button:hover {
+  background: linear-gradient(135deg, #45a049 0%, #3d8b40 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(76, 175, 80, 0.4);
+}
+
+/* Exam Mode */
+.exam-app.exam-mode {
+  background: #f8f9fa;
+  padding: 0;
+}
+
+.exam-header {
+  background: white;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.exam-info h2 {
+  margin: 0 0 5px 0;
+  color: #2c3e50;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.exam-info p {
+  margin: 0;
+  color: #6c757d;
+  font-size: 1rem;
+}
+
+.exam-content {
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.exam-actions {
+  background: white;
+  padding: 20px;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  bottom: 0;
+  z-index: 100;
+}
+
+.progress-info {
+  font-size: 1rem;
+  color: #495057;
+  font-weight: 600;
+}
+
+.submit-exam-button {
+  padding: 12px 24px;
+  background: linear-gradient(135deg, #dc3545 0%, #c82333 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(220, 53, 69, 0.3);
+}
+
+.submit-exam-button:hover {
+  background: linear-gradient(135deg, #c82333 0%, #a71e2a 100%);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px rgba(220, 53, 69, 0.4);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .exam-app {
+    padding: 10px;
+  }
+  
+  .app-header h1 {
+    font-size: 2rem;
+  }
+  
+  .app-header p {
+    font-size: 1rem;
+  }
+  
+  .exam-preview {
+    margin: 20px auto 0;
+    padding: 20px;
+  }
+  
+  .exam-details {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 15px;
+  }
+  
+  .exam-instructions {
+    padding: 15px;
+  }
+  
+  .exam-header {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  .exam-content {
+    padding: 15px;
+  }
+  
+  .exam-actions {
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+  }
+  
+  .submit-exam-button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .exam-app {
+    padding: 5px;
+  }
+  
+  .app-header h1 {
+    font-size: 1.7rem;
+  }
+  
+  .exam-preview {
+    padding: 15px;
+  }
+  
+  .preview-content h3 {
+    font-size: 1.3rem;
+  }
+  
+  .exam-details {
+    padding: 12px;
+  }
+  
+  .detail-item {
+    font-size: 0.9rem;
+  }
+  
+  .exam-instructions {
+    padding: 12px;
+  }
+  
+  .exam-instructions h4 {
+    font-size: 1.1rem;
+  }
+  
+  .exam-instructions li {
+    font-size: 0.9rem;
+  }
+  
+  .start-exam-button {
+    padding: 12px;
+    font-size: 1.1rem;
+  }
+  
+  .exam-header {
+    padding: 12px;
+  }
+  
+  .exam-info h2 {
+    font-size: 1.3rem;
+  }
+  
+  .exam-content {
+    padding: 10px;
+  }
+  
+  .exam-actions {
+    padding: 12px;
+  }
+}
+
+/* Animation for smooth transitions */
+.exam-app * {
+  transition: all 0.3s ease;
+}
+
+/* Focus states for accessibility */
+.start-exam-button:focus,
+.submit-exam-button:focus {
+  outline: 3px solid rgba(0, 123, 255, 0.5);
+  outline-offset: 2px;
+}
+
+/* Print styles */
+@media print {
+  .exam-app {
+    background: white;
+    padding: 0;
+  }
+  
+  .exam-header,
+  .exam-actions {
+    display: none;
+  }
+}

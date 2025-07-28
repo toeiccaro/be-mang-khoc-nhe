@@ -1,0 +1,69 @@
+1. MS Word 2013: Để tạo tài liệu mới, ta sử dụng phím tắt nào?
+A. Ctrl + N
+B. Ctrl + O
+C. Ctrl + S
+D. Ctrl + P
+Answer: A
+
+2. MS Word 2013: Để lưu tài liệu, ta sử dụng phím tắt nào?
+A. Ctrl + N
+B. Ctrl + O
+C. Ctrl + S
+D. Ctrl + P
+Answer: C
+
+3. MS Word 2013: Để mở tài liệu có sẵn, ta sử dụng phím tắt nào?
+A. Ctrl + N
+B. Ctrl + O
+C. Ctrl + S
+D. Ctrl + P
+Answer: B
+
+4. MS Word 2013: Để in tài liệu, ta sử dụng phím tắt nào?
+A. Ctrl + N
+B. Ctrl + O
+C. Ctrl + S
+D. Ctrl + P
+Answer: D
+
+5. MS Word 2013: Để copy text, ta sử dụng phím tắt nào?
+A. Ctrl + X
+B. Ctrl + C
+C. Ctrl + V
+D. Ctrl + Z
+Answer: B
+
+6. MS Word 2013: Để paste text, ta sử dụng phím tắt nào?
+A. Ctrl + X
+B. Ctrl + C
+C. Ctrl + V
+D. Ctrl + Z
+Answer: C
+
+7. MS Word 2013: Để cut text, ta sử dụng phím tắt nào?
+A. Ctrl + X
+B. Ctrl + C
+C. Ctrl + V
+D. Ctrl + Z
+Answer: A
+
+8. MS Word 2013: Để undo thao tác, ta sử dụng phím tắt nào?
+A. Ctrl + X
+B. Ctrl + C
+C. Ctrl + V
+D. Ctrl + Z
+Answer: D
+
+9. MS Word 2013: Để tìm kiếm text trong tài liệu, ta sử dụng phím tắt nào?
+A. Ctrl + F
+B. Ctrl + H
+C. Ctrl + G
+D. Ctrl + R
+Answer: A
+
+10. MS Word 2013: Để thay thế text trong tài liệu, ta sử dụng phím tắt nào?
+A. Ctrl + F
+B. Ctrl + H
+C. Ctrl + G
+D. Ctrl + R
+Answer: B
