@@ -21,44 +21,73 @@ const ExamApp = () => {
   useEffect(() => {
     const loadExamData = async () => {
       try {
-        const response = await fetch("/data.json");
-        if (response.ok) {
-          const data = await response.json();
-          setExamData(data);
+        console.log("Đang tải dữ liệu từ src/data/data.json...");
+        // Import trực tiếp từ src/data/data.json
+        try {
+          const data = await import("../data/data.json");
+          console.log("Dữ liệu đã tải thành công:", data.default);
+          console.log("Số lượng đề thi:", data.default.exams?.length);
+          setExamData(data.default);
+          return;
+        } catch (importError) {
+          console.log(
+            "Không thể import trực tiếp, thử fetch:",
+            importError.message
+          );
+        }
+
+        // Fallback: thử fetch từ public folder
+        let response;
+        const paths = [
+          `${process.env.PUBLIC_URL}/data.json`,
+          "/data.json",
+          "./data.json",
+          "data.json",
+        ];
+
+        let lastError;
+        for (const path of paths) {
+          try {
+            console.log("Thử tải từ:", path);
+            response = await fetch(path);
+            console.log(`Response từ ${path}:`, response.status);
+            if (response.ok) break;
+          } catch (err) {
+            console.log(`Lỗi với path ${path}:`, err.message);
+            lastError = err;
+          }
+        }
+
+        if (response && response.ok) {
+          const text = await response.text();
+          console.log("Raw response text:", text.substring(0, 200) + "...");
+
+          try {
+            const data = JSON.parse(text);
+            console.log("Dữ liệu đã tải thành công:", data);
+            console.log("Số lượng đề thi:", data.exams?.length);
+            setExamData(data);
+          } catch (parseError) {
+            console.error("Lỗi parse JSON:", parseError);
+            console.error("Text content:", text.substring(0, 500));
+            throw new Error("Lỗi định dạng file data.json");
+          }
         } else {
-          // Fallback to sample data
-          const sampleQuestions = createSampleData();
-          const sampleExam = {
-            exams: [
-              {
-                id: "sample",
-                name: "Đề thi mẫu MS Word 2013",
-                description: "Đề thi trắc nghiệm mẫu về Microsoft Word 2013",
-                duration: 30,
-                totalQuestions: sampleQuestions.length,
-                questions: sampleQuestions,
-              },
-            ],
-          };
-          setExamData(sampleExam);
+          console.error("Không thể tải data.json từ bất kỳ đường dẫn nào");
+          console.error(
+            "Response cuối cùng:",
+            response?.status,
+            response?.statusText
+          );
+          console.error("Lỗi cuối cùng:", lastError);
+          throw new Error("Không thể tải data.json từ bất kỳ đường dẫn nào");
         }
       } catch (error) {
         console.error("Lỗi khi tải dữ liệu:", error);
-        // Fallback to sample data
-        const sampleQuestions = createSampleData();
-        const sampleExam = {
-          exams: [
-            {
-              id: "sample",
-              name: "Đề thi mẫu MS Word 2013",
-              description: "Đề thi trắc nghiệm mẫu về Microsoft Word 2013",
-              duration: 30,
-              totalQuestions: sampleQuestions.length,
-              questions: sampleQuestions,
-            },
-          ],
-        };
-        setExamData(sampleExam);
+        // Hiển thị thông báo lỗi thay vì dùng sample data
+        alert(
+          "Không thể tải dữ liệu đề thi. Vui lòng kiểm tra kết nối mạng và thử lại."
+        );
       }
     };
 
@@ -173,7 +202,10 @@ const ExamApp = () => {
       <div className="exam-app">
         <div className="loading-container">
           <div className="loading-spinner"></div>
-          <p>Đang tải ứng dụng...</p>
+          <p>Đang tải dữ liệu đề thi...</p>
+          <p style={{ fontSize: "14px", color: "#666", marginTop: "10px" }}>
+            Nếu tải quá lâu, vui lòng kiểm tra kết nối mạng và refresh trang
+          </p>
         </div>
       </div>
     );
