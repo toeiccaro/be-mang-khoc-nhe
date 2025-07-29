@@ -3,7 +3,7 @@ import ExamList from "./ExamList";
 import Timer from "./Timer";
 import Question from "./Question";
 import ExamResult from "./ExamResult";
-import { createSampleData } from "../utils/parseQuestions";
+
 import "./ExamApp.css";
 
 const ExamApp = () => {
@@ -21,22 +21,9 @@ const ExamApp = () => {
   useEffect(() => {
     const loadExamData = async () => {
       try {
-        console.log("Đang tải dữ liệu từ src/data/data.json...");
-        // Import trực tiếp từ src/data/data.json
-        try {
-          const data = await import("../data/data.json");
-          console.log("Dữ liệu đã tải thành công:", data.default);
-          console.log("Số lượng đề thi:", data.default.exams?.length);
-          setExamData(data.default);
-          return;
-        } catch (importError) {
-          console.log(
-            "Không thể import trực tiếp, thử fetch:",
-            importError.message
-          );
-        }
+        console.log("Đang tải dữ liệu từ /data.json...");
 
-        // Fallback: thử fetch từ public folder
+        // Thử fetch từ public folder với các đường dẫn khác nhau
         let response;
         const paths = [
           `${process.env.PUBLIC_URL}/data.json`,
