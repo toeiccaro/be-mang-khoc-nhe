@@ -1,0 +1,406 @@
+{
+  "exams": [
+    {
+      "id": "image_based_exam",
+      "name": "Đề thi từ hình ảnh",
+      "description": "Đề thi được tạo từ hình ảnh với OCR",
+      "duration": 15,
+      "totalQuestions": 24,
+      "questions": [
+        {
+          "id": 1,
+          "question": {
+            "type": "image",
+            "content": "/images/1.Q.PNG"
+          },
+          "options": {
+            "type": "text",
+            "content": {
+              "A": "=HLOOKUP, IF",
+              "B": "=HLOOKUP, MATCH",
+              "C": "=HLOOKUP, RIGHT, LEFT",
+              "D": "=HLOOKUP, MID, IF"
+            }
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 2,
+          "question": {
+            "type": "image",
+            "content": "/images/2.Q.PNG"
+          },
+          "options": {
+            "type": "text",
+            "content": {
+              "A": "MID",
+              "B": "LEFT",
+              "C": "RIGHT",
+              "D": "FIND, LEN"
+            }
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 3,
+          "question": {
+            "type": "image",
+            "content": "/images/3.Q.PNG"
+          },
+          "options": {
+            "type": "text",
+            "content": {
+              "A": "LEFT(B4, 6)",
+              "B": "MID(B4, 4, LEN(B4)-5)",
+              "C": "RIGHT(B4, LEN(B4)-5)",
+              "D": "FIND(B4, LEN(B4)-5)"
+            }
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 4,
+          "question": {
+            "type": "image",
+            "content": "/images/4.Q.PNG"
+          },
+          "options": {
+            "type": "text",
+            "content": {
+              "A": "LEFT(B4, 6)",
+              "B": "RIGHT(B4, LEN(B4)-5)",
+              "C": "MID(B4, FIND(“-“,B4)+1, LEN(B4)-5)",
+              "D": "FIND(B4, LEN(B4)-5)"
+            }
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 5,
+          "question": {
+            "type": "image",
+            "content": "/images/5.Q.PNG"
+          },
+          "options": {
+            "type": "text",
+            "content": {
+              "A": "VLOOKUP, RIGHT",
+              "B": "VLOOKUP, LEN",
+              "C": "VLOOKUP, PROPER",
+              "D": "VLOOKUP, LEFT"
+            }
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 6,
+          "question": {
+            "type": "image",
+            "content": "/images/6.Q.PNG"
+          },
+          "options": {
+            "type": "text",
+            "content": {}
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 7,
+          "question": {
+            "type": "image",
+            "content": "/images/7.Q.PNG"
+          },
+          "options": {
+            "type": "text",
+            "content": {}
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 8,
+          "question": {
+            "type": "image",
+            "content": "/images/8.Q.PNG"
+          },
+          "options": {
+            "type": "text",
+            "content": {
+              "A": "INDEX, IF, RIGHT",
+              "B": "INDEX, IF, LEN, MID",
+              "C": "INDEX, IF, LEFT",
+              "D": "INDEX, IF, FIND"
+            }
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 9,
+          "question": {
+            "type": "image",
+            "content": "/images/9.Q.PNG"
+          },
+          "options": {
+            "type": "text",
+            "content": {}
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 10,
+          "question": {
+            "type": "image",
+            "content": "/images/10.Q.PNG"
+          },
+          "options": {
+            "type": "text",
+            "content": {
+              "A": "SUMIF",
+              "B": "SUM",
+              "C": "SUMPRODUCT",
+              "D": "PRODUCT"
+            }
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 11,
+          "question": {
+            "type": "image",
+            "content": "/images/11.Q.PNG"
+          },
+          "options": {
+            "type": "text",
+            "content": {
+              "A": "SUM",
+              "B": "SUMIFS",
+              "C": "SUMPRODUCT",
+              "D": "PRODUCT"
+            }
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 12,
+          "question": {
+            "type": "image",
+            "content": "/images/12.Q.PNG"
+          },
+          "options": {
+            "type": "text",
+            "content": {
+              "A": "Sử dụng 2 điều kiện “QD*”, “B*”",
+              "B": "Sử dụng 1 điều kiện “QD-B*”",
+              "C": "Sử dụng 1 điều kiện “QD*B”",
+              "D": "Sử dụng 1 điều kiện “*QD-B*”"
+            }
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 13,
+          "question": {
+            "type": "image",
+            "content": "/images/13.Q.PNG"
+          },
+          "options": {
+            "type": "text",
+            "content": {
+              "A": "Sir dung 2 điêu kiện “DAK LAK”, “C”",
+              "B": "Sử dung 2 điều kiện “DAK LĂK*”, “C*”",
+              "C": "Sử dụng 1 điều kiện “DAK LĂK*C”",
+              "D": "Sử dụng 1 điều kiện “*ĐĂK LĂK-C”"
+            }
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 14,
+          "question": {
+            "type": "image",
+            "content": "/images/14.Q.PNG"
+          },
+          "options": {
+            "type": "text",
+            "content": {
+              "A": "IF, OR, MONTH",
+              "B": "IF, AND, OR, DAY, MONTH",
+              "C": "IF, AND, MONTH",
+              "D": "IF, AND, OR, DAY, YEAR"
+            }
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 15,
+          "question": {
+            "type": "image",
+            "content": "/images/15.Q.PNG"
+          },
+          "options": {
+            "type": "text",
+            "content": {
+              "A": "IF, AND, RIGTH",
+              "B": "IF, OR, RIGTH",
+              "C": "IF, OR, AND , RIGTH",
+              "D": "IF, OR, AND, LEFT"
+            }
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 16,
+          "question": {
+            "type": "image",
+            "content": "/images/16.Q.PNG"
+          },
+          "options": {
+            "type": "text",
+            "content": {
+              "A": "VLOOKUP IF, DAY",
+              "B": "VLOOKUP, IF, DATE",
+              "C": "HLOOKUP, IF, DAY",
+              "D": "HLOOKUP, IF, DATE"
+            }
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 17,
+          "question": {
+            "type": "image",
+            "content": "/images/17.Q.PNG"
+          },
+          "options": {
+            "type": "text",
+            "content": {
+              "A": "=E4 * F4 * IF(E4>30, 2%, 0%)",
+              "B": "=E4 * F4 * IF(E4>30, 98%, 100%)",
+              "C": "=E4 * F4 * IF(E4>30, 2%, 1%)",
+              "D": "=E4 * F4 * IF(E4>30, 102%,100%)"
+            }
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 18,
+          "question": {
+            "type": "image",
+            "content": "/images/18.Q.PNG"
+          },
+          "options": {
+            "type": "text",
+            "content": {
+              "A": "=E4 * F4 * IF(AND(MONTH(C4)=3, MONTH(C4)=4). 2%, 0%)",
+              "B": "=E4 * F4 * IF(AND(MONTH(C4)=3, MONTH(C4)=4), 98%, 100%)",
+              "C": "=E4 * F4 * IF(OR(MONTH(C4)=3, MONTH(C4)=4), 98%, 100%)",
+              "D": "=E4 * F4 * IF(OR(MONTH(C4)=3, MONTH(C4)=4), 2%, 0%)"
+            }
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 19,
+          "question": {
+            "type": "image",
+            "content": "/images/19.Q.PNG"
+          },
+          "options": {
+            "type": "text",
+            "content": {
+              "A": "=(G4 - H4) * IF(AND(RIGTH(B4,1)=\"A\", RIGHT(B4,1)=\"B\"), 3%, 0%)",
+              "B": "=(G4 - H4) * [F(AND(RIGTH(B4,1)=\"A”, RIGHT(B4,1)=\"B\"), 97%, 100%)",
+              "C": "=(G4 - H4) * IF(OR(RIGTH(B4,1)=\"A”, RIGHT(B4,1)=B”), 3%, 0%)",
+              "D": "=(G4 - H4) * IF(OR(RIGTH(B4,1)=\"A”, RIGHT(B4,1)=\"B\"), 97%, 100%)"
+            }
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 20,
+          "question": {
+            "type": "image",
+            "content": "/images/20.Q.PNG"
+          },
+          "options": {
+            "type": "text",
+            "content": {
+              "A": "=VLOOKUP(E4,5K$4:3N$6,MATCH(LEFT(A4,2),$L$3:8N§3,0)+1,1)",
+              "B": "=VLOOKUP(E4,SK$4:SN$6, MATCH(LEFT(A4,2).SL$3:3N$3,0)+1,0)",
+              "C": "=HLOOKUP(E4,8K$4:$N$6, MATCH(LEFT(A4,2).SL$3:SN$3,0)+1,1)",
+              "D": "=HLOOKUP(E4,SK$4:3N$6,MATCH(LEFT(A4,2),SL$3:SN$3,0)+1,0)"
+            }
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 21,
+          "question": {
+            "type": "image",
+            "content": "/images/21.Q.PNG"
+          },
+          "options": {
+            "type": "text",
+            "content": {
+              "A": "=HLOOKUP(RIGHT(A4,2), SL$3:$N$6,MATCH(E4,SK$4:$K$4,0)+1,1)",
+              "B": "=HLOOKUP(RIGHT(A4,2), SL$3:SN$6,MATCH(E4,$K$4:$KS4,1)+1.0)",
+              "C": "=HLOOKUP(RIGHT(A4.2), $L$3:SN$6,MATCH(E4,SK$4:5K$4,0)+1,0)",
+              "D": "=HLOOKUP(RIGHT(A4.2), $L$3:$N$6,MATCH(E4,SK34:8K34,1)+1,1)"
+            }
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 22,
+          "question": {
+            "type": "image",
+            "content": "/images/22.Q.PNG"
+          },
+          "options": {
+            "type": "text",
+            "content": {
+              "A": "=INDEX(SL$4:SN$6,MATCH(E4,$K$4:$K$6,1),MATCH(LEFT(B4,2),SL$3:3N$3,1))",
+              "B": "=INDEX(SL$4:$NS6,MATCH(E4,SKS4:SK$6,0)MATCH(LEFT(B4.2),$L$3:8NS3,1))",
+              "C": "=INDEX(SL$4:$NS6,MATCH(E4,SKS4:SK$6,1)MATCH(LEFT(B4.2),$L$3:8§NS3,0))",
+              "D": "=INDEX(SL$4:§NS6,MATCH(E4,$KS4:§K$6,0)MATCH(LEFT(B4,2),$L$3:$NS3,0))"
+            }
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 23,
+          "question": {
+            "type": "image",
+            "content": "/images/23.Q.PNG"
+          },
+          "options": {
+            "type": "text",
+            "content": {
+              "A": "=VLOOKUP(MID(B4,2),5K$10:SN$12, IF(DAY(C4)>=1,2,IF(DAY(C4)>=11,3,4)),0)",
+              "B": "=VLOOKUP(MID(B4,2),8K$10:$N$12,IF(DAY(C4)>=21,4,IF(DAY (C4)>=1,3,2)),0)",
+              "C": "=VLOOKUP(LEFT(B4,2),5K$10:SN$12,IF(DAY(C4)>=1,2,IF(DAY (C4)>=11,3,4)),0)",
+              "D": "=VLOOKUP(LEFT(B4/2),$KS10:§NS12,IF(DAY(C4)>=21,4,IF(DAY(C4)>=1,3,2)).0)"
+            }
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 24,
+          "question": {
+            "type": "image",
+            "content": "/images/24.Q.PNG"
+          },
+          "options": {
+            "type": "text",
+            "content": {
+              "A": "=SUMIF(SB$4:$B$12,\"*A\",$1$4:81$12) + SUMIF(SBS4:$B$12,\"*C\".$I$4:$1S$12)",
+              "B": "=SUMIF(SB$4:SBS$12,\"A*\".$I$4:$1S12) + SUMIF($SB$4:$B$12,\"C*\",$1$4:81$12)",
+              "C": "=SUMIFS(SBS4:SBS12,\"*A\".$1$4:$1S12) + SUMIFS(SBS4:SB$12,\"*C\".$I$4:$1$12)",
+              "D": "=SUMIFS(SB$4:SBS12,\"A*\".$I$4:$1S12) + SUMIFS(SB$4:SB$12,\"C*\",$1$4:$1$12)"
+            }
+          },
+          "correctAnswer": "A"
+        }
+      ]
+    }
+  ]
+}
