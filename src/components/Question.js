@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
-import './Question.css';
+import React, { useState, useEffect } from "react";
+import "./Question.css";
 
-const Question = ({ 
+const Question = ({
   question,
   questionNumber,
   totalQuestions,
@@ -11,7 +11,7 @@ const Question = ({
   onNext,
   onPrevious,
   onNavigate,
-  answeredQuestions = []
+  answeredQuestions = [],
 }) => {
   const [currentAnswer, setCurrentAnswer] = useState(selectedAnswer);
   const [isAnimating, setIsAnimating] = useState(false);
@@ -35,9 +35,9 @@ const Question = ({
   const handleNavigation = (direction) => {
     setIsAnimating(true);
     setTimeout(() => {
-      if (direction === 'next' && onNext) {
+      if (direction === "next" && onNext) {
         onNext();
-      } else if (direction === 'previous' && onPrevious) {
+      } else if (direction === "previous" && onPrevious) {
         onPrevious();
       }
       setIsAnimating(false);
@@ -57,27 +57,160 @@ const Question = ({
 
   // Kiểm tra đáp án đúng/sai khi show result
   const getOptionClass = (optionKey) => {
-    let classes = 'option';
-    
+    let classes = "option";
+
     if (currentAnswer === optionKey) {
-      classes += ' selected';
+      classes += " selected";
     }
-    
+
     if (showResult) {
       if (optionKey === question.correctAnswer) {
-        classes += ' correct';
-      } else if (currentAnswer === optionKey && optionKey !== question.correctAnswer) {
-        classes += ' incorrect';
+        classes += " correct";
+      } else if (
+        currentAnswer === optionKey &&
+        optionKey !== question.correctAnswer
+      ) {
+        classes += " incorrect";
       }
     }
-    
+
     return classes;
+  };
+
+  // Render question content (text hoặc image)
+  const renderQuestionContent = () => {
+    // Backward compatibility: nếu question là string thì hiển thị text
+    if (typeof question.question === "string") {
+      return <h3>{question.question}</h3>;
+    }
+
+    // New format: object với type và content
+    if (question.question && typeof question.question === "object") {
+      if (question.question.type === "image") {
+        // Build correct path based on environment
+        const imagePath = question.question.content;
+        const publicUrl = process.env.PUBLIC_URL || "";
+
+        // Remove /public/ prefix if exists (since public folder is served at root)
+        let cleanImagePath = imagePath.startsWith("/public/")
+          ? imagePath.replace("/public/", "/")
+          : imagePath;
+
+        // Remove leading slash if exists
+        cleanImagePath = cleanImagePath.startsWith("/")
+          ? cleanImagePath.substring(1)
+          : cleanImagePath;
+
+        const fullPath = publicUrl
+          ? `${publicUrl}/${cleanImagePath}`
+          : `/${cleanImagePath}`;
+
+        console.log("Debug paths:", {
+          imagePath,
+          publicUrl,
+          cleanImagePath,
+          fullPath,
+        });
+
+        // Test if image exists
+        const testImg = new Image();
+        testImg.onload = () => console.log("✅ Image exists:", fullPath);
+        testImg.onerror = () => console.log("❌ Image not found:", fullPath);
+        testImg.src = fullPath;
+
+        return (
+          <div className="question-image-container">
+            <img
+              src={fullPath}
+              alt={`Câu hỏi ${questionNumber}`}
+              className="question-image"
+              onError={(e) => {
+                e.target.style.display = "none";
+                e.target.nextSibling.style.display = "block";
+              }}
+            />
+            <div className="image-error" style={{ display: "none" }}>
+              ❌ Không thể tải hình ảnh
+              <br />
+              <small>Path: {fullPath}</small>
+            </div>
+          </div>
+        );
+      } else {
+        return <h3>{question.question.content}</h3>;
+      }
+    }
+
+    return <h3>Câu hỏi không hợp lệ</h3>;
+  };
+
+  // Render options (text hoặc image)
+  const renderOptions = () => {
+    // Backward compatibility: nếu options là object đơn giản
+    if (question.options && !question.options.type) {
+      return Object.entries(question.options).map(([key, value]) => (
+        <div
+          key={key}
+          className={getOptionClass(key)}
+          onClick={() => handleAnswerSelect(key)}
+        >
+          <div className="option-marker">
+            <span className="option-letter">{key}</span>
+          </div>
+          <div className="option-text">{value}</div>
+          {showResult && key === question.correctAnswer && (
+            <div className="correct-icon">✓</div>
+          )}
+        </div>
+      ));
+    }
+
+    // New format: object với type và content
+    if (question.options && question.options.content) {
+      return Object.entries(question.options.content).map(([key, value]) => (
+        <div
+          key={key}
+          className={getOptionClass(key)}
+          onClick={() => handleAnswerSelect(key)}
+        >
+          <div className="option-marker">
+            <span className="option-letter">{key}</span>
+          </div>
+          <div className="option-content">
+            {question.options.type === "image" ? (
+              <img
+                src={value}
+                alt={`Option ${key}`}
+                className="option-image"
+                onError={(e) => {
+                  e.target.style.display = "none";
+                  e.target.nextSibling.style.display = "inline";
+                }}
+              />
+            ) : (
+              <span className="option-text">{value}</span>
+            )}
+            <span className="image-error" style={{ display: "none" }}>
+              ❌ Lỗi tải hình
+            </span>
+          </div>
+          {showResult && key === question.correctAnswer && (
+            <div className="correct-icon">✓</div>
+          )}
+        </div>
+      ));
+    }
+
+    return <div>Không có lựa chọn</div>;
   };
 
   // Tạo danh sách câu hỏi để navigation
   const renderQuestionNavigation = () => {
-    const questions = Array.from({ length: totalQuestions }, (_, index) => index + 1);
-    
+    const questions = Array.from(
+      { length: totalQuestions },
+      (_, index) => index + 1
+    );
+
     return (
       <div className="question-navigation">
         <h4>Câu hỏi:</h4>
@@ -85,11 +218,13 @@ const Question = ({
           {questions.map((num) => {
             const isAnswered = answeredQuestions.includes(num);
             const isCurrent = num === questionNumber;
-            
+
             return (
               <button
                 key={num}
-                className={`nav-question ${isCurrent ? 'current' : ''} ${isAnswered ? 'answered' : ''}`}
+                className={`nav-question ${isCurrent ? "current" : ""} ${
+                  isAnswered ? "answered" : ""
+                }`}
                 onClick={() => handleQuestionJump(num - 1)}
                 disabled={showResult}
               >
@@ -113,7 +248,7 @@ const Question = ({
   }
 
   return (
-    <div className={`question-container ${isAnimating ? 'animating' : ''}`}>
+    <div className={`question-container ${isAnimating ? "animating" : ""}`}>
       {/* Header với thông tin câu hỏi */}
       <div className="question-header">
         <div className="question-info">
@@ -121,13 +256,13 @@ const Question = ({
             Câu {questionNumber} / {totalQuestions}
           </span>
           <div className="progress-bar">
-            <div 
+            <div
               className="progress-fill"
               style={{ width: `${(questionNumber / totalQuestions) * 100}%` }}
             />
           </div>
         </div>
-        
+
         {showResult && (
           <div className="result-indicator">
             {currentAnswer === question.correctAnswer ? (
@@ -141,35 +276,21 @@ const Question = ({
 
       {/* Nội dung câu hỏi */}
       <div className="question-content">
-        <div className="question-text">
-          <h3>{question.question}</h3>
-        </div>
+        <div className="question-text">{renderQuestionContent()}</div>
 
-        <div className="options-container">
-          {Object.entries(question.options).map(([key, value]) => (
-            <div
-              key={key}
-              className={getOptionClass(key)}
-              onClick={() => handleAnswerSelect(key)}
-            >
-              <div className="option-marker">
-                <span className="option-letter">{key}</span>
-              </div>
-              <div className="option-text">
-                {value}
-              </div>
-              {showResult && key === question.correctAnswer && (
-                <div className="correct-icon">✓</div>
-              )}
-            </div>
-          ))}
-        </div>
+        <div className="options-container">{renderOptions()}</div>
 
         {showResult && (
           <div className="answer-explanation">
-            <p><strong>Đáp án đúng:</strong> {question.correctAnswer} - {question.options[question.correctAnswer]}</p>
+            <p>
+              <strong>Đáp án đúng:</strong> {question.correctAnswer} -{" "}
+              {question.options[question.correctAnswer]}
+            </p>
             {currentAnswer && currentAnswer !== question.correctAnswer && (
-              <p><strong>Bạn đã chọn:</strong> {currentAnswer} - {question.options[currentAnswer]}</p>
+              <p>
+                <strong>Bạn đã chọn:</strong> {currentAnswer} -{" "}
+                {question.options[currentAnswer]}
+              </p>
             )}
           </div>
         )}
@@ -179,19 +300,19 @@ const Question = ({
       <div className="question-navigation-buttons">
         <button
           className="nav-btn prev-btn"
-          onClick={() => handleNavigation('previous')}
+          onClick={() => handleNavigation("previous")}
           disabled={questionNumber === 1}
         >
           ← Câu trước
         </button>
-        
+
         <span className="question-status">
-          {currentAnswer ? '✅ Đã trả lời' : '⏳ Chưa trả lời'}
+          {currentAnswer ? "✅ Đã trả lời" : "⏳ Chưa trả lời"}
         </span>
-        
+
         <button
           className="nav-btn next-btn"
-          onClick={() => handleNavigation('next')}
+          onClick={() => handleNavigation("next")}
           disabled={questionNumber === totalQuestions}
         >
           Câu sau →

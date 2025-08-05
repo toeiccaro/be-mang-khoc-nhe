@@ -13,6 +13,7 @@
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-scripts": "5.0.1",
+    "tesseract.js": "^5.1.1",
     "web-vitals": "^2.1.4",
     "yargs": "^18.0.0"
   },
@@ -23,6 +24,10 @@
     "eject": "react-scripts eject",
     "pdf-to-json": "node scripts/pdf-to-json.js",
     "convert-pdf": "node scripts/pdf-to-json.js",
+    "images-to-json": "node scripts/image-to-data.js",
+    "convert-images": "node scripts/image-to-data.js",
+    "create-sample-images": "node scripts/create-sample-image-data.js",
+    "test-ocr": "node scripts/test-single-image.js",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },

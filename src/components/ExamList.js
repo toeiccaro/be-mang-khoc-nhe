@@ -1,11 +1,7 @@
-import React, { useState, useEffect } from 'react';
-import './ExamList.css';
+import React, { useState, useEffect } from "react";
+import "./ExamList.css";
 
-const ExamList = ({ 
-  onExamSelect, 
-  selectedExamId = null,
-  exams = []
-}) => {
+const ExamList = ({ onExamSelect, selectedExamId = null, exams = [] }) => {
   const [examData, setExamData] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -15,23 +11,23 @@ const ExamList = ({
     const loadExams = async () => {
       try {
         setLoading(true);
-        
+
         // Nếu có exams được truyền vào từ props, sử dụng nó
         if (exams && exams.length > 0) {
           setExamData(exams);
         } else {
           // Nếu không, load từ file JSON
-          const response = await fetch('/data.json');
+          const response = await fetch("/data.json");
           if (!response.ok) {
-            throw new Error('Không thể tải dữ liệu đề thi');
+            throw new Error("Không thể tải dữ liệu đề thi");
           }
           const data = await response.json();
           setExamData(data.exams || []);
         }
-        
+
         setError(null);
       } catch (err) {
-        console.error('Lỗi khi tải đề thi:', err);
+        console.error("Lỗi khi tải đề thi:", err);
         setError(err.message);
         setExamData([]);
       } finally {
@@ -73,7 +69,7 @@ const ExamList = ({
         </div>
         <div className="exam-list-error">
           <p>❌ {error}</p>
-          <button 
+          <button
             className="retry-button"
             onClick={() => window.location.reload()}
           >
@@ -104,50 +100,50 @@ const ExamList = ({
         <h2>Danh sách đề thi</h2>
         <p className="exam-count">Có {examData.length} đề thi</p>
       </div>
-      
+
       <div className="exam-list-scroll">
         <div className="exam-list">
           {examData.map((exam) => (
             <div
               key={exam.id}
-              className={`exam-card ${selectedExamId === exam.id ? 'selected' : ''}`}
+              className={`exam-card ${
+                selectedExamId === exam.id ? "selected" : ""
+              }`}
               onClick={() => handleExamClick(exam)}
             >
               <div className="exam-card-header">
                 <h3 className="exam-title">{exam.name}</h3>
-                <div className="exam-badge">
-                  {exam.totalQuestions} câu
-                </div>
+                <div className="exam-badge">{exam.totalQuestions} câu</div>
               </div>
-              
+
               <div className="exam-card-body">
                 <p className="exam-description">
-                  {exam.description || 'Đề thi trắc nghiệm'}
+                  {exam.description || "Đề thi trắc nghiệm"}
                 </p>
-                
+
                 <div className="exam-info">
                   <div className="info-item">
                     <span className="info-icon">⏱️</span>
-                    <span>{exam.duration || 30} phút</span>
+                    <span>{exam.duration} phút</span>
                   </div>
-                  
+
                   <div className="info-item">
                     <span className="info-icon">📋</span>
                     <span>{exam.totalQuestions} câu hỏi</span>
                   </div>
                 </div>
               </div>
-              
+
               <div className="exam-card-footer">
                 <button className="start-exam-btn">
-                  {selectedExamId === exam.id ? 'Đã chọn' : 'Chọn đề thi'}
+                  {selectedExamId === exam.id ? "Đã chọn" : "Chọn đề thi"}
                 </button>
               </div>
             </div>
           ))}
         </div>
       </div>
-      
+
       <div className="exam-list-footer">
         <p className="scroll-hint">← Vuốt để xem thêm đề thi →</p>
       </div>

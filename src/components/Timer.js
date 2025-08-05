@@ -37,7 +37,7 @@ const Timer = ({
 
           // Gọi callback để cập nhật thời gian cho component cha
           if (onTimeUpdate) {
-            onTimeUpdate(newTime);
+            setTimeout(() => onTimeUpdate(newTime), 0);
           }
 
           // Kiểm tra nếu hết thời gian
