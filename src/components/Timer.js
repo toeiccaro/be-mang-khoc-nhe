@@ -1,11 +1,11 @@
-import React, { useState, useEffect, useCallback } from 'react';
-import './Timer.css';
+import React, { useState, useEffect, useCallback } from "react";
+import "./Timer.css";
 
-const Timer = ({ 
-  duration = 30, // thời gian thi tính bằng phút
+const Timer = ({
+  duration = 15, // thời gian thi tính bằng phút
   onTimeUp,
   isActive = false,
-  onTimeUpdate
+  onTimeUpdate,
 }) => {
   const [timeLeft, setTimeLeft] = useState(duration * 60); // chuyển đổi sang giây
   const [isRunning, setIsRunning] = useState(false);
@@ -14,7 +14,9 @@ const Timer = ({
   const formatTime = useCallback((seconds) => {
     const minutes = Math.floor(seconds / 60);
     const remainingSeconds = seconds % 60;
-    return `${minutes.toString().padStart(2, '0')}:${remainingSeconds.toString().padStart(2, '0')}`;
+    return `${minutes.toString().padStart(2, "0")}:${remainingSeconds
+      .toString()
+      .padStart(2, "0")}`;
   }, []);
 
   // Khởi động timer khi isActive = true
@@ -30,9 +32,9 @@ const Timer = ({
 
     if (isRunning && timeLeft > 0) {
       interval = setInterval(() => {
-        setTimeLeft(prevTime => {
+        setTimeLeft((prevTime) => {
           const newTime = prevTime - 1;
-          
+
           // Gọi callback để cập nhật thời gian cho component cha
           if (onTimeUpdate) {
             onTimeUpdate(newTime);
@@ -46,7 +48,7 @@ const Timer = ({
             }
             return 0;
           }
-          
+
           return newTime;
         });
       }, 1000);
@@ -61,10 +63,10 @@ const Timer = ({
   const getTimerColor = () => {
     const totalSeconds = duration * 60;
     const percentage = (timeLeft / totalSeconds) * 100;
-    
-    if (percentage > 50) return '#4CAF50'; // Xanh lá
-    if (percentage > 25) return '#FF9800'; // Cam
-    return '#F44336'; // Đỏ
+
+    if (percentage > 50) return "#4CAF50"; // Xanh lá
+    if (percentage > 25) return "#FF9800"; // Cam
+    return "#F44336"; // Đỏ
   };
 
   // Tính toán độ rộng của thanh progress
@@ -78,7 +80,11 @@ const Timer = ({
   const isTimeCritical = timeLeft <= 60; // 1 phút = 60 giây
 
   return (
-    <div className={`timer-container ${isTimeWarning ? 'warning' : ''} ${isTimeCritical ? 'critical' : ''}`}>
+    <div
+      className={`timer-container ${isTimeWarning ? "warning" : ""} ${
+        isTimeCritical ? "critical" : ""
+      }`}
+    >
       <div className="timer-header">
         <h3>Thời gian còn lại</h3>
         <div className="timer-status">
@@ -91,21 +97,18 @@ const Timer = ({
           )}
         </div>
       </div>
-      
+
       <div className="timer-display">
-        <div 
-          className="timer-text"
-          style={{ color: getTimerColor() }}
-        >
+        <div className="timer-text" style={{ color: getTimerColor() }}>
           {formatTime(timeLeft)}
         </div>
-        
+
         <div className="timer-progress-container">
-          <div 
+          <div
             className="timer-progress-bar"
-            style={{ 
+            style={{
               width: `${getProgressWidth()}%`,
-              backgroundColor: getTimerColor()
+              backgroundColor: getTimerColor(),
             }}
           />
         </div>
@@ -115,7 +118,7 @@ const Timer = ({
         <div className="time-info">
           <span>Tổng thời gian: {duration} phút</span>
         </div>
-        
+
         {isTimeWarning && (
           <div className="time-warning">
             {isTimeCritical ? (
